@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Curly braces on one line</Title>
-      <Shortcut>{}</Shortcut>
+      <Title>curly braces on separate lines</Title>
+      <Shortcut></Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -13,7 +13,10 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[{ $selected$ }$end$]]>
+        <![CDATA[
+{ 
+    $selected$
+}$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>

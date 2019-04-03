@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>await AsyncAwaiterResult</Title>
-      <Shortcut>await AsyncAwaiterResult</Shortcut>
+      <Title>await AsyncAwaiterVoid</Title>
+      <Shortcut>awasv</Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -13,13 +13,13 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[return await AsyncAwaiter.AwaitAsyncResult(async () =>
+        <![CDATA[await AsyncAwaiter.AwaitAsyncVoid(async () =>
 {
-	return await Task.Run(async () =>
+	await Task.Run(async () =>
 	{
 		$selected$
 	});
-});$end$]]>
+}, nameof(class));$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
