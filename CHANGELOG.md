@@ -2,8 +2,9 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.09] - 2019-08-14
+## [0.2.10] - 2019-08-14
 ### Added
+- Debugger.Break.snippet
 - Trim query.snippet
 - Trim query 2.snippet
 - Trim query newline.snippet
