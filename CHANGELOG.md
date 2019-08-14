@@ -2,11 +2,12 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.07] - 2019-08-14
+## [0.2.08] - 2019-08-14
 ### Added
 - Trim query.snippet
 - Trim query newline.snippet
 - Trim query short.snippet
+- Trim query where.snippet
 
 ## [0.2.04] - 2019-05-30
 ### Added
