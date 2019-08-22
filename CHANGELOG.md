@@ -2,8 +2,9 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.16] - 2019-08-22
+## [0.2.17] - 2019-08-22
 ### Added
+- Comment PVS-Studio.snippet
 - Region private fields and properties.snippet
 - Region private helpers.snippet
 - Region private methods.snippet
