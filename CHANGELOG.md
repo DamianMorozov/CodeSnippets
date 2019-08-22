@@ -2,9 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.11] - 2019-08-22
+## [0.2.12] - 2019-08-22
 ### Added
 - Region private fields and properties.snippet
+- Region private helpers.snippet
 
 ## [0.2.10] - 2019-08-14
 ### Added
