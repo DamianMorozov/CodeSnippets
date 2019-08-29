@@ -2,7 +2,7 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.19] - 2019-08-28
+## [0.2.20] - 2019-08-29
 ### Updated
 - curly braces on one line.snippet
 - curly braces on separate lines.snippet
