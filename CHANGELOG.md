@@ -2,10 +2,11 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.20] - 2019-08-29
+## [0.2.21] - 2019-08-29
 ### Updated
 - curly braces on one line.snippet
 - curly braces on separate lines.snippet
+- Comment PVS-Studio.snippet
 
 ## [0.2.17] - 2019-08-22
 ### Added
