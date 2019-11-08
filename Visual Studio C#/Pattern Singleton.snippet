@@ -15,16 +15,11 @@
       <Code Language="csharp">
         <![CDATA[public sealed class SomeClass
 {
-#region Design pattern "Singleton".
+#region Design pattern "Singleton"
 
     private static readonly Lazy<SomeClass> _instance = new Lazy<SomeClass>(() => new SomeClass());
     public static SomeClass Instance { get { return _instance.Value; } }
     private SomeClass()
-    {
-        Init();
-    }
-
-    public void Init()
     {
         //
     }

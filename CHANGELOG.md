@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.2.22] - 2019-11-08
+### Updated
+- Pattern Singleton.snippet
+
 ## [0.2.21] - 2019-08-29
 ### Updated
 - curly braces on one line.snippet
