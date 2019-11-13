@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Debugger.Break</Title>
-      <Shortcut>debugbreak</Shortcut>
+      <Title>Debugger.Break IsAttached</Title>
+      <Shortcut>debugbreak1</Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -13,7 +13,7 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[if (System.Diagnostics.Debugger.Launch()) System.Diagnostics.Debugger.Break();$end$]]>
+        <![CDATA[if (System.Diagnostics.Debugger.IsAttached) System.Diagnostics.Debugger.Break();$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>

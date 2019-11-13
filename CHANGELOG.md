@@ -2,6 +2,12 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.2.23] - 2019-11-13
+### Added
+- Debugger.Break IsAttached.snippet
+### Renamed
+- Debugger.Break.snippet -> Debugger.Break Launch.snippet
+
 ## [0.2.22] - 2019-11-08
 ### Updated
 - Pattern Singleton.snippet
