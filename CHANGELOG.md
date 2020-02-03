@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.2.25] - 2020-02-03
+### Updated
+- Region INotifyPropertyChanged.snippet
+
 ## [0.2.24] - 2019-11-29
 ### Added
 - Region INotifyPropertyChanged.snippet

@@ -4,7 +4,7 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Title>Region INotifyPropertyChanged</Title>
-      <Shortcut>#regionINotifyPropertyChanged</Shortcut>
+      <Shortcut>#regioninotifypropertychanged</Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -17,9 +17,9 @@
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void OnPropertyRaised(string propertyName)
+        private void OnPropertyRaised([CallerMemberName] string caller = "")
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(caller));
         }
 
         #endregion$end$]]>
