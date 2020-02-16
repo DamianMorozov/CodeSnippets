@@ -2,9 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.26] - 2020-02-16
+## [0.2.27] - 2020-02-16
 ### Added
 - XAML INotifyPropertyChanged.snippet
+- 
 
 ## [0.2.25] - 2020-02-03
 ### Updated
