@@ -2,7 +2,7 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.28] - 2020-04-02
+## [0.2.29] - 2020-04-03
 ### Added
 - Testing default.snippet
 

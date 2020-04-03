@@ -13,53 +13,57 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[//using NUnit.Framework;
-	//using System.Diagnostics;
-	[TestFixture]
-    public class ProgramTests
-    {
-        /// <summary>
-        /// Setup private fields.
-        /// </summary>
-        [SetUp]
-        public void Setup()
-        {
-            TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-            TestContext.WriteLine($$@"{nameof(Setup)} start.");
-            // 
-			TestContext.WriteLine($$@"{nameof(Setup)} complete.");
-        }
+        <![CDATA[using NUnit.Framework;
+	using System.Diagnostics;
+	
+	namespace Namespace.Tests
+	{
+		[TestFixture]
+		public class ProgramTests
+		{
+			/// <summary>
+			/// Setup private fields.
+			/// </summary>
+			[SetUp]
+			public void Setup()
+			{
+				TestContext.WriteLine(@"--------------------------------------------------------------------------------");
+				TestContext.WriteLine($$@"{nameof(Setup)} start.");
+				// 
+				TestContext.WriteLine($$@"{nameof(Setup)} complete.");
+			}
 
-        /// <summary>
-        /// Reset private fields to default state.
-        /// </summary>
-        [TearDown]
-        public void Teardown()
-        {
-            TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-            TestContext.WriteLine($$@"{nameof(Teardown)} start.");
-            // 
-            TestContext.WriteLine($$@"{nameof(Teardown)} complete.");
-            TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-        }
+			/// <summary>
+			/// Reset private fields to default state.
+			/// </summary>
+			[TearDown]
+			public void Teardown()
+			{
+				TestContext.WriteLine(@"--------------------------------------------------------------------------------");
+				TestContext.WriteLine($$@"{nameof(Teardown)} start.");
+				// 
+				TestContext.WriteLine($$@"{nameof(Teardown)} complete.");
+				TestContext.WriteLine(@"--------------------------------------------------------------------------------");
+			}
 
-        [Test]
-        public void Foo_AreEqual()
-        {
-            TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-            TestContext.WriteLine($$@"{nameof(Foo_AreEqual)} start.");
-            var sw = Stopwatch.StartNew();
-            
-			int actual = default;
-            // 
-            TestContext.WriteLine($$"actual: {actual}");
-            var expected = default;
-            TestContext.WriteLine($$"expected: {expected}");
-            Assert.AreEqual(expected, actual);
-            
-			sw.Stop();
-            TestContext.WriteLine($$@"{nameof(Foo_AreEqual)} complete. Elapsed time: {sw.Elapsed}");
-        }
+			[Test]
+			public void Foo_AreEqual()
+			{
+				TestContext.WriteLine(@"--------------------------------------------------------------------------------");
+				TestContext.WriteLine($$@"{nameof(Foo_AreEqual)} start.");
+				var sw = Stopwatch.StartNew();
+				
+				int actual = default;
+				// 
+				TestContext.WriteLine($$"actual: {actual}");
+				int expected = default;
+				TestContext.WriteLine($$"expected: {expected}");
+				Assert.AreEqual(expected, actual);
+				
+				sw.Stop();
+				TestContext.WriteLine($$@"{nameof(Foo_AreEqual)} complete. Elapsed time: {sw.Elapsed}");
+			}
+		}
     }$end$]]>
       </Code>
     </Snippet>
