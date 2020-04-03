@@ -14,7 +14,7 @@
     <Snippet>
       <Code Language="csharp">
         <![CDATA[using NUnit.Framework;
-	using System.Diagnostics;
+using System.Diagnostics;
 	
 	namespace Namespace.Tests
 	{
@@ -55,9 +55,8 @@
 				
 				int actual = default;
 				// 
-				TestContext.WriteLine($$"actual: {actual}");
 				int expected = default;
-				TestContext.WriteLine($$"expected: {expected}");
+				TestContext.WriteLine($"actual/expected: {actual}");
 				Assert.AreEqual(expected, actual);
 				
 				sw.Stop();
