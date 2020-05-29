@@ -18,11 +18,8 @@
 #region Design pattern "Singleton"
 
     private static readonly Lazy<SomeClass> _instance = new Lazy<SomeClass>(() => new SomeClass());
-    public static SomeClass Instance { get { return _instance.Value; } }
-    private SomeClass()
-    {
-        //
-    }
+    public static SomeClass Instance => _instance.Value;
+    private SomeClass() { }
 
     #endregion
 }$end$]]>

@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.2.31] - 2020-05-29
+### Updated
+- Pattern Singleton.snippet
+
 ## [0.2.30] - 2020-04-07
 ### Updated
 - Testing default.snippet
