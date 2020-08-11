@@ -2,11 +2,15 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.35] - 2020-08-11
+## [0.2.38] - 2020-08-11
 ### Added
 - Comments\Comment PVS-Studio academic project.snippet
 - Comments\Comment PVS-Studio individual developer.snippet
 - Comments\Comment PVS-Studio non-commercial project.snippet
+### Moved
+- Pattern Singleton 3.5.snippet -> Patterns\Pattern Singleton 3.5.snippet
+- Pattern Singleton Instance.snippet -> Pattern Singleton Instance.snippet
+- Pattern Singleton.snippet -> Pattern Singleton.snippet
 
 ## [0.2.32] - 2020-05-30
 ### Updated
@@ -37,7 +41,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [0.2.23] - 2019-11-13
 ### Added
 - Debugger.Break IsAttached.snippet
-### Renamed
+### Moved
 - Debugger.Break.snippet -> Debugger.Break Launch.snippet
 
 ## [0.2.22] - 2019-11-08

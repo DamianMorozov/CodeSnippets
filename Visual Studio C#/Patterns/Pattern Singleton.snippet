@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Pattern Lazy Singleton</Title>
+      <Shortcut>cs_patsingllazy</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Morozov Damian</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[public sealed class SomeClass
+{
+#region Design pattern "Singleton"
+
+    private static readonly Lazy<SomeClass> _instance = new Lazy<SomeClass>(() => new SomeClass());
+    public static SomeClass Instance => _instance.Value;
+    private SomeClass() { }
+
+    #endregion
+}$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
