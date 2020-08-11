@@ -2,6 +2,12 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.2.35] - 2020-08-11
+### Added
+- Comments\Comment PVS-Studio academic project.snippet
+- Comments\Comment PVS-Studio individual developer.snippet
+- Comments\Comment PVS-Studio non-commercial project.snippet
+
 ## [0.2.32] - 2020-05-30
 ### Updated
 - Pattern Singleton.snippet
