@@ -2,11 +2,12 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.43] - 2020-08-11
+## [0.2.44] - 2020-08-11
 ### Added
 - Comments\Comment PVS-Studio academic project.snippet
 - Comments\Comment PVS-Studio individual developer.snippet
 - Comments\Comment PVS-Studio non-commercial project.snippet
+- Regions\Region constructor.snippet
 ### Moved
 - Pattern Singleton 3.5.snippet -> Patterns\Pattern Singleton 3.5.snippet
 - Pattern Singleton Instance.snippet -> Pattern Singleton Instance.snippet
