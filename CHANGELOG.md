@@ -2,7 +2,7 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.56] - 2020-09-08
+## [0.2.57] - 2020-09-08
 ### Added
 - MessageBox\MessageBox Question.snippet
 ### Moved
@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - await TaskRun.snippet -> Async\await TaskRun.snippet
 - Debugger.Break IsAttached.snippet -> Debugger\Debugger.Break IsAttached.snippet
 - Debugger.Break Launch.snippet -> Debugger\Debugger.Break Launch.snippet
+- StopWatch.snippet -> Debugger\StopWatch.snippet
 - Testing default.snippet -> Tests\Testing default.snippet
 - Trim query 2.snippet -> Strings\Trim query 2.snippet
 - Trim query newline.snippet -> Strings\Trim query newline.snippet
