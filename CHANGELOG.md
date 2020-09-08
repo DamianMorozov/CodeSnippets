@@ -2,13 +2,15 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.48] - 2020-09-08
+## [0.2.49] - 2020-09-08
 ### Added
 - MessageBox\MessageBox Question.snippet
 ### Moved
 - await AsyncAwaiterResult.snippet -> Async\await AsyncAwaiterResult.snippet
 - await AsyncAwaiterVoid.snippet -> Async\await AsyncAwaiterVoid.snippet
 - await TaskRun.snippet -> Async\await TaskRun.snippet
+- Debugger.Break IsAttached.snippet -> Debugger\Debugger.Break IsAttached.snippet
+- Debugger.Break Launch.snippet -> Debugger\Debugger.Break Launch.snippet
 - XAML -> Interfaces
 
 ## [0.2.44] - 2020-08-11
