@@ -2,7 +2,7 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.51] - 2020-09-08
+## [0.2.52] - 2020-09-08
 ### Added
 - MessageBox\MessageBox Question.snippet
 ### Moved
