@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>MessageBox Question</Title>
-      <Shortcut>cs_msg_question</Shortcut>
+      <Title>MessageBox Question with Localization.snippet</Title>
+      <Shortcut>cs_msg_question_localization</Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -13,7 +13,8 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[if (MessageBox.Show("Question?", "Caption", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+        <![CDATA[var question = CurrentLocalization == EnumLocalization.English ? @"English question?" : @"Localization question?";
+if (MessageBox.Show(question, GetDescription(assembly), MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
 {$selected$$end$
 }]]>
       </Code>
