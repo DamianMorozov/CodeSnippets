@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MessageBox Question</Title>
+      <Shortcut>cs_msg_question</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Morozov Damian</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[if (MessageBox.Show("Question?", "Caption", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+  {$selected$$end$
+  }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

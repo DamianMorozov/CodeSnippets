@@ -3,6 +3,8 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [0.2.45] - 2020-09-08
+### Added
+- MessageBox\MessageBox Question.snippet
 ### Moved
 - await AsyncAwaiterResult.snippet -> Async\await AsyncAwaiterResult.snippet
 - await AsyncAwaiterVoid.snippet -> Async\await AsyncAwaiterVoid.snippet
