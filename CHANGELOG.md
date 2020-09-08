@@ -2,6 +2,11 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.2.45] - 2020-09-08
+### Moved
+- await AsyncAwaiterResult.snippet -> Async\await AsyncAwaiterResult.snippet
+- await AsyncAwaiterVoid.snippet -> Async\await AsyncAwaiterVoid.snippet
+
 ## [0.2.44] - 2020-08-11
 ### Added
 - Comments\Comment PVS-Studio academic project.snippet
