@@ -2,10 +2,11 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.2.62] - 2020-09-06
+## [0.2.63] - 2020-09-06
 ### Updated
 - Patterns\Pattern Singleton 3.5.snippet
 - Patterns\Pattern Singleton Instance.snippet
+- Patterns\Pattern Singleton Lazy.snippet
 
 ## [0.2.60] - 2020-09-08
 ### Added
