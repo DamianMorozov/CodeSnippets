@@ -4,7 +4,7 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Title>Pattern Singleton 3.5</Title>
-      <Shortcut>cs_patt_singl35</Shortcut>
+      <Shortcut>cs_patt_singleton_35</Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -17,14 +17,14 @@
 {
 #region Design pattern "Singleton"
 
-      private static class SingletonHolder
-      {
-          public static readonly SetupSettings _instance = new SetupSettings();
-      }
-      public static SetupSettings Instance => SingletonHolder._instance;
-      private SetupSettings() { }
+private static class SingletonHolder
+{
+    public static readonly SetupSettings _instance = new SetupSettings();
+}
+public static SetupSettings Instance => SingletonHolder._instance;
+private SetupSettings() { }
 
-    #endregion
+#endregion
 }$end$]]>
       </Code>
     </Snippet>
