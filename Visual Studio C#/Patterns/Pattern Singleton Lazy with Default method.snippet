@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Pattern Lazy Singleton</Title>
-      <Shortcut>cs_patt_singllazy</Shortcut>
+      <Title>Pattern Singleton Lazy with Default method</Title>
+      <Shortcut>cs_patt_singleton_lazy_default</Shortcut>
       <Description>Paste code</Description>
       <Author>Morozov Damian</Author>
       <SnippetTypes>
@@ -15,13 +15,22 @@
       <Code Language="csharp">
         <![CDATA[public sealed class SomeClass
 {
-#region Design pattern "Singleton"
+#region Design pattern "Lazy Singleton"
 
-    private static readonly Lazy<SomeClass> _instance = new Lazy<SomeClass>(() => new SomeClass());
-    public static SomeClass Instance => _instance.Value;
-    private SomeClass() { }
+private static readonly Lazy<SomeClass> _instance = new Lazy<SomeClass>(() => new SomeClass());
+public static SomeClass Instance => _instance.Value;
+private SomeClass() { Default(); }
 
-    #endregion
+#endregion
+
+#region Public methods
+
+public void Default()
+{
+    //
+}
+
+#endregion
 }$end$]]>
       </Code>
     </Snippet>
