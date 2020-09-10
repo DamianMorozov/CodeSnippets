@@ -1,11 +1,19 @@
 # Changelog
+All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.64] - 2020-09-06
+## [Unreleased]
+
+## [0.2.65] - 2020-09-10
+### Changed
+- LICENSE
+
+## [0.2.64] - 2020-09-09
 ### Added
 - Patterns\Pattern Singleton Lazy with Default method.snippet
-### Updated
+### Changed
 - Patterns\Pattern Singleton 3.5.snippet
 - Patterns\Pattern Singleton Instance.snippet
 - Patterns\Pattern Singleton Lazy.snippet
@@ -14,7 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - MessageBox\MessageBox Question.snippet
 - MessageBox\MessageBox Question with Localization.snippet
-### Moved
+### Changed
 - await AsyncAwaiterResult.snippet -> Async\await AsyncAwaiterResult.snippet
 - await AsyncAwaiterVoid.snippet -> Async\await AsyncAwaiterVoid.snippet
 - await TaskRun.snippet -> Async\await TaskRun.snippet
@@ -37,7 +45,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Comments\Comment PVS-Studio individual developer.snippet
 - Comments\Comment PVS-Studio non-commercial project.snippet
 - Regions\Region constructor.snippet
-### Moved
+### Changed
 - Pattern Singleton 3.5.snippet -> Patterns\Pattern Singleton 3.5.snippet
 - Pattern Singleton Instance.snippet -> Pattern Singleton Instance.snippet
 - Pattern Singleton.snippet -> Pattern Singleton.snippet
@@ -46,13 +54,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - XAML INotifyPropertyChanged context.snippet -> XAML\XAML INotifyPropertyChanged context.snippet
 
 ## [0.2.32] - 2020-05-30
-### Updated
+### Changed
 - Pattern Singleton.snippet
 ### Added
 - Pattern Singleton 3.5.snippet
 
 ## [0.2.30] - 2020-04-07
-### Updated
+### Changed
 - Testing default.snippet
 
 ## [0.2.29] - 2020-04-03
@@ -64,7 +72,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - XAML INotifyPropertyChanged.snippet
 
 ## [0.2.25] - 2020-02-03
-### Updated
+### Changed
 - Region INotifyPropertyChanged.snippet
 
 ## [0.2.24] - 2019-11-29
@@ -74,15 +82,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [0.2.23] - 2019-11-13
 ### Added
 - Debugger.Break IsAttached.snippet
-### Moved
+### Changed
 - Debugger.Break.snippet -> Debugger.Break Launch.snippet
 
 ## [0.2.22] - 2019-11-08
-### Updated
+### Changed
 - Pattern Singleton.snippet
 
 ## [0.2.21] - 2019-08-29
-### Updated
+### Changed
 - curly braces on one line.snippet
 - curly braces on separate lines.snippet
 - Comment PVS-Studio.snippet
@@ -112,7 +120,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Pattern Singleton Instance.snippet
 
 ## [0.2.02] - 2019-04-30
-### Updated
+### Changed
 - StopWatch.snippet
 
 ## [0.2.01] - 2019-04-08
