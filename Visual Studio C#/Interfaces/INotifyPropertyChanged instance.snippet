@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>XAML INotifyPropertyChanged instance</Title>
+      <Shortcut>cs_inotifypropertychanged_instance</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Morozov Damian</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[private T _prop;
+        /// <summary>
+        /// Description.
+        /// </summary>
+        public T Prop
+        {
+            get => _prop;
+            set
+            {
+                _prop = value;
+                OnPropertyRaised();
+            }
+        }$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
