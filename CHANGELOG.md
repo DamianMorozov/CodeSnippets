@@ -6,9 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.67] - 2020-09-17
+## [0.2.68] - 2020-09-17
 ### Added
 - Attributes\Attribute Obsolete.snippet
+### Changed
+- Braces\curly braces on one line.snippet
+- Braces\curly braces on separate lines.snippet
 
 ## [0.2.66] - 2020-09-15
 ### Added
