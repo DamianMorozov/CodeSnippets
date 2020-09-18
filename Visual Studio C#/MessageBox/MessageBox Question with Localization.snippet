@@ -6,18 +6,30 @@
       <Title>MessageBox Question with Localization.snippet</Title>
       <Shortcut>cs_msg_question_localization</Shortcut>
       <Description>Paste code</Description>
-      <Author>Morozov Damian</Author>
+      <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[var question = CurrentLocalization == EnumLocalization.English ? @"English question?" : @"Localization question?";
+        <![CDATA[var question = CurrentLocalization == EnumLocalization.English ? @"$EnglishQuestion$" : @"$LocalizationQuestion$";
 if (MessageBox.Show(question, GetDescription(assembly), MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
 {$selected$$end$
 }]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>EnglishQuestion</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>English question?</Default>
+        </Literal>
+        <Literal>
+          <ID>LocalizationQuestion</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>Localization question?</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
