@@ -6,18 +6,26 @@
       <Title>await Task.Run</Title>
       <Shortcut>cs_async_taskrun</Shortcut>
       <Description>Paste code</Description>
-      <Author>Morozov Damian</Author>
+      <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[await Task.Run(() => 
+        <![CDATA[// $Message$
+await Task.Run(() => 
 { 
     $selected$
 });$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Type own text message.</ToolTip>
+          <Default>Code comment.</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
