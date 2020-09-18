@@ -6,27 +6,34 @@
       <Title>Pattern Singleton 3.5</Title>
       <Shortcut>cs_patt_singleton_35</Shortcut>
       <Description>Paste code</Description>
-      <Author>Morozov Damian</Author>
+      <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[public sealed class SomeClass
-{
-#region Design pattern "Singleton"
+        <![CDATA[public sealed class $SomeClass$
+    {
+      #region Design pattern "Singleton"
 
 private static class SingletonHolder
 {
-    public static readonly SetupSettings _instance = new SetupSettings();
+    public static readonly $SomeClass$ _instance = new $SomeClass$();
 }
-public static SetupSettings Instance => SingletonHolder._instance;
-private SetupSettings() { }
+public static $SomeClass$ Instance => SingletonHolder._instance;
+private $SomeClass$() { }
 
 #endregion
 }$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>SomeClass</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>SomeClass</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

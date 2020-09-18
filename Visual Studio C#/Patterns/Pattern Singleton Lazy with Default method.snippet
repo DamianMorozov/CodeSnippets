@@ -6,20 +6,20 @@
       <Title>Pattern Singleton Lazy with Default method</Title>
       <Shortcut>cs_patt_singleton_lazy_default</Shortcut>
       <Description>Paste code</Description>
-      <Author>Morozov Damian</Author>
+      <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[public sealed class SomeClass
+        <![CDATA[public sealed class $SomeClass$
 {
 #region Design pattern "Lazy Singleton"
 
-private static readonly Lazy<SomeClass> _instance = new Lazy<SomeClass>(() => new SomeClass());
-public static SomeClass Instance => _instance.Value;
-private SomeClass() { Default(); }
+private static readonly Lazy<$SomeClass$> _instance = new Lazy<$SomeClass$>(() => new $SomeClass$());
+public static $SomeClass$ Instance => _instance.Value;
+private $SomeClass$() { Default(); }
 
 #endregion
 
@@ -33,6 +33,13 @@ public void Default()
 #endregion
 }$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>SomeClass</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>SomeClass</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
