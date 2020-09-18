@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.73] - 2020-09-18
+## [0.2.75] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
 - Async\await AsyncAwaiterVoid.snippet
@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Debugger\Debugger.Break IsAttached.snippet
 - Debugger\Debugger.Break Launch.snippet
 - Debugger\StopWatch.snippet
+- Interfaces\INotifyPropertyChanged.snippet
+- Interfaces\INotifyPropertyChanged class.snippet
+- Interfaces\INotifyPropertyChanged context.snippet
+- Interfaces\INotifyPropertyChanged instance.snippet
 
 ## [0.2.69] - 2020-09-17
 ### Added
