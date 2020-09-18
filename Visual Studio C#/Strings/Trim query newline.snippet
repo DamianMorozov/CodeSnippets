@@ -6,15 +6,20 @@
       <Title>Trim query NewLine</Title>
       <Shortcut>cs_trim_query_newline</Shortcut>
       <Description>Paste code</Description>
-      <Author>Morozov Damian</Author>
+      <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[query = new Regex("[ ]{2,}", RegexOptions.None).Replace(query, " ");$end$]]>
+        <![CDATA[var query = new Regex("[ ]{2,}", RegexOptions.None).Replace(query, " ");$end$]]>
       </Code>
+      <Imports>
+        <Import>
+          <Namespace>System.Text.RegularExpressions</Namespace>
+        </Import>
+      </Imports>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

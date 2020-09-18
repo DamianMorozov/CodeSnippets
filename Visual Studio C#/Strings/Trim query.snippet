@@ -6,15 +6,22 @@
       <Title>Trim query</Title>
       <Shortcut>cs_trim_query</Shortcut>
       <Description>Paste code</Description>
-      <Author>Morozov Damian</Author>
+      <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[var query = string.Format(@"".TrimStart('\r', ' ', '\n').TrimEnd('\r', ' ', '\n'),);$end$]]>
+        <![CDATA[var query = string.Format(@"$Query$".TrimStart('\r', ' ', '\n').TrimEnd('\r', ' ', '\n'),);$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>Query</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>Type query</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

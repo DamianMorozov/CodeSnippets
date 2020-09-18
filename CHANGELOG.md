@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.78] - 2020-09-18
+## [0.2.79] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
 - Async\await AsyncAwaiterVoid.snippet
@@ -32,6 +32,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Regions\Region fields and properties.snippet
 - Regions\Region helpers.snippet
 - Regions\Region methods.snippet
+- Strings\Trim query.snippet
+- Strings\Trim query 2.snippet
+- Strings\Trim query newline.snippet
+- Strings\Trim query short.snippet
+- Strings\Trim query where.snippet
 
 ## [0.2.69] - 2020-09-17
 ### Added
