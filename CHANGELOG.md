@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.79] - 2020-09-18
+## [0.2.80] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
 - Async\await AsyncAwaiterVoid.snippet
@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Strings\Trim query newline.snippet
 - Strings\Trim query short.snippet
 - Strings\Trim query where.snippet
+- Tests\Testing default.snippet
 
 ## [0.2.69] - 2020-09-17
 ### Added
