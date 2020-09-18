@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.77] - 2020-09-18
+## [0.2.78] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
 - Async\await AsyncAwaiterVoid.snippet
@@ -28,6 +28,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Patterns\Pattern Singleton Instance.snippet
 - Patterns\Pattern Singleton Lazy.snippet
 - Patterns\Pattern Singleton Lazy with Default method.snippet
+- Regions\Region constructor.snippet
+- Regions\Region fields and properties.snippet
+- Regions\Region helpers.snippet
+- Regions\Region methods.snippet
 
 ## [0.2.69] - 2020-09-17
 ### Added
