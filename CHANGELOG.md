@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.72] - 2020-09-18
+## [0.2.73] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
 - Async\await AsyncAwaiterVoid.snippet
@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comments\Comment PVS-Studio academic project.snippet
 - Comments\Comment PVS-Studio individual developer.snippet
 - Comments\Comment PVS-Studio non-commercial project.snippet
+- Debugger\Debugger.Break IsAttached.snippet
+- Debugger\Debugger.Break Launch.snippet
+- Debugger\StopWatch.snippet
 
 ## [0.2.69] - 2020-09-17
 ### Added
