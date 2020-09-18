@@ -6,12 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.71] - 2020-09-18
+## [0.2.72] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
 - Async\await AsyncAwaiterVoid.snippet
 - Async\await TaskRun.snippet
 - Attributes\Attribute Obsolete.snippet
+- Comments\Comment PVS-Studio academic project.snippet
+- Comments\Comment PVS-Studio individual developer.snippet
+- Comments\Comment PVS-Studio non-commercial project.snippet
 
 ## [0.2.69] - 2020-09-17
 ### Added
