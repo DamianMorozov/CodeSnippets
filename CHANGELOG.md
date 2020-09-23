@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.81] - 2020-09-23
+### Changed
+- Regions\Region constructor.snippet
+
 ## [0.2.80] - 2020-09-18
 ### Changed
 - Async\await AsyncAwaiterResult.snippet
