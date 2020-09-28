@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.82] - 2020-09-28
+### Changed
+- Interfaces\INotifyPropertyChanged instance.snippet
+
 ## [0.2.81] - 2020-09-23
 ### Changed
 - Regions\Region constructor.snippet

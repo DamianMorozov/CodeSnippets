@@ -13,20 +13,42 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[private T _prop;
+        <![CDATA[private $PropType$ $Field$;
         /// <summary>
-        /// Description.
+        /// $Description$.
         /// </summary>
-        public T Prop
+        public $PropType$ $Prop$
         {
-            get => _prop;
+            get => $Field$;
             set
             {
-                _prop = value;
+                $Field$ = value;
                 OnPropertyRaised();
             }
         }$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>PropType</ID>
+          <ToolTip>Type of property.</ToolTip>
+          <Default>T</Default>
+        </Literal>
+        <Literal>
+          <ID>Prop</ID>
+          <ToolTip>Property.</ToolTip>
+          <Default>Prop</Default>
+        </Literal>
+        <Literal>
+          <ID>Field</ID>
+          <ToolTip>Field.</ToolTip>
+          <Default>_prop</Default>
+        </Literal>
+        <Literal>
+          <ID>Description</ID>
+          <ToolTip>Description.</ToolTip>
+          <Default>Description</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
