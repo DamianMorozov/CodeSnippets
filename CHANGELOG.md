@@ -6,8 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.85] - 2020-10-05
+## [0.2.86] - 2020-10-05
 ### Added
+- Notifications\OnResponseHandler instance.snippet
 - Notifications\OnResponseHandler region.snippet
 ### Changed
 - Moved Interfaces\* -> Notifications\*
