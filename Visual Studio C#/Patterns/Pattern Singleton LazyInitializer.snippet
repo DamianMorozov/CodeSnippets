@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Pattern Singleton LazyInitializer</Title>
+      <Shortcut>cs_patt_singleton_lazyinitializer</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[public class $SomeClass$
+{
+#region Design pattern "Lazy Singleton"
+
+private static $SomeClass$ _instance;
+public static $SomeClass$ Instance => LazyInitializer.EnsureInitialized(ref _instance);
+private $SomeClass$() { Default(); }
+
+#endregion
+
+#region Public methods
+
+public void Default()
+{
+    $SomeMehtods$
+}
+
+#endregion
+}$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>SomeClass</ID>
+          <ToolTip>Class name.</ToolTip>
+          <Default>SomeClass</Default>
+        </Literal>
+        <Literal>
+          <ID>SomeMehtods</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>SomeMehtods</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Threading</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
