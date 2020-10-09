@@ -13,13 +13,24 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[public sealed class $SomeClass$
+        <![CDATA[
+public sealed class $SomeClass$
 {
 #region Design pattern "Lazy Singleton"
 
+// ReSharper disable once InconsistentNaming
 private static readonly Lazy<$SomeClass$> _instance = new Lazy<$SomeClass$>(() => new $SomeClass$());
 public static $SomeClass$ Instance => _instance.Value;
-private $SomeClass$() { }
+private $SomeClass$() { Default(); }
+
+#endregion
+
+#region Public methods
+
+public void Default()
+{
+    //
+}
 
 #endregion
 }$end$]]>
@@ -31,6 +42,11 @@ private $SomeClass$() { }
           <Default>SomeClass</Default>
         </Literal>
       </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
