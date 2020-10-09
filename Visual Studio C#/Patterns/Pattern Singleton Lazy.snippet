@@ -13,8 +13,7 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[
-public sealed class $SomeClass$
+        <![CDATA[public sealed class $SomeClass$
 {
 #region Design pattern "Lazy Singleton"
 
@@ -29,7 +28,7 @@ private $SomeClass$() { Default(); }
 
 public void Default()
 {
-    //
+    $SomeMehtods$
 }
 
 #endregion
@@ -38,8 +37,13 @@ public void Default()
       <Declarations>
         <Literal>
           <ID>SomeClass</ID>
-          <ToolTip>Type own text question.</ToolTip>
+          <ToolTip>Class name.</ToolTip>
           <Default>SomeClass</Default>
+        </Literal>
+        <Literal>
+          <ID>SomeMehtods</ID>
+          <ToolTip>Type own text question.</ToolTip>
+          <Default>SomeMehtods</Default>
         </Literal>
       </Declarations>
       <Imports>
