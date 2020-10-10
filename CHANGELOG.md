@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.91] - 2020-10-10
+### Added
+- Enums\Enum foreach.snippet
+
 ## [0.2.90] - 2020-10-09
 ### Changed
 - Patterns\Pattern Singleton Lazy.snippet

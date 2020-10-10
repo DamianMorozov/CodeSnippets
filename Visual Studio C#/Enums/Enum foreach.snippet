@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Enum foreach</Title>
+      <Shortcut>cs_enum_foreach</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[foreach (var value in Enum.GetValues(typeof($Enum$)))$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>SomeClass</ID>
+          <ToolTip>Class name.</ToolTip>
+          <Default>SomeClass</Default>
+        </Literal>
+        <Literal>
+          <ID>Enum</ID>
+          <ToolTip>Enumeration.</ToolTip>
+          <Default>Enum</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
