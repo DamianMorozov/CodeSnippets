@@ -19,15 +19,21 @@
 
 private static $SomeClass$ _instance;
 public static $SomeClass$ Instance => LazyInitializer.EnsureInitialized(ref _instance);
-public $SomeClass$() { Default(); }
 
 #endregion
 
-#region Public methods
+#region Constructor and destructor
 
-public void Default()
+public $SomeClass$() { SetupDefault(); }
+
+public void SetupDefault()
 {
-    $SomeMehtods$
+    // $MethodsSetupDefault$
+}
+
+public void Setup()
+{
+    // $MethodsSetup$
 }
 
 #endregion
@@ -40,9 +46,14 @@ public void Default()
           <Default>SomeClass</Default>
         </Literal>
         <Literal>
-          <ID>SomeMehtods</ID>
-          <ToolTip>Type own text question.</ToolTip>
-          <Default>SomeMehtods</Default>
+          <ID>MethodsSetupDefault</ID>
+          <ToolTip>Default methods.</ToolTip>
+          <Default>Default methods</Default>
+        </Literal>
+        <Literal>
+          <ID>MethodsSetup</ID>
+          <ToolTip>Setup methods.</ToolTip>
+          <Default>Setup methods</Default>
         </Literal>
       </Declarations>
       <Imports>
