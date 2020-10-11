@@ -3,7 +3,7 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>XAML INotifyPropertyChanged instance</Title>
+      <Title>INotifyPropertyChanged instance</Title>
       <Shortcut>cs_inotifypropertychanged_instance</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
@@ -49,6 +49,14 @@
           <Default>Description</Default>
         </Literal>
       </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.ComponentModel</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Runtime.CompilerServices</Namespace>
+        </Import>
+      </Imports>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
