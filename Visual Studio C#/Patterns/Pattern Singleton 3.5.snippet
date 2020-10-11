@@ -15,23 +15,49 @@
       <Code Language="csharp">
         <![CDATA[public sealed class $SomeClass$
     {
-      #region Design pattern "Singleton"
+      #region Design pattern "Singleton 3.5"
 
 private static class SingletonHolder
 {
     public static readonly $SomeClass$ _instance = new $SomeClass$();
 }
 public static $SomeClass$ Instance => SingletonHolder._instance;
-private $SomeClass$() { }
 
 #endregion
+
+#region Constructor and destructor
+
+private $SomeClass$() { SetupDefault(); }
+
+public void SetupDefault()
+{
+    // $MethodsSetupDefault$
+}
+
+public void Setup()
+{
+    // $MethodsSetup$
+}
+
+#endregion
+
 }$end$]]>
       </Code>
       <Declarations>
         <Literal>
           <ID>SomeClass</ID>
-          <ToolTip>Type own text question.</ToolTip>
+          <ToolTip>Class name.</ToolTip>
           <Default>SomeClass</Default>
+        </Literal>
+        <Literal>
+          <ID>MethodsSetupDefault</ID>
+          <ToolTip>Default methods.</ToolTip>
+          <Default>Default methods</Default>
+        </Literal>
+        <Literal>
+          <ID>MethodsSetup</ID>
+          <ToolTip>Setup methods.</ToolTip>
+          <Default>Setup methods</Default>
         </Literal>
       </Declarations>
     </Snippet>
