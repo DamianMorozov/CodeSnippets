@@ -14,13 +14,18 @@
     <Snippet>
       <Code Language="csharp">
         <![CDATA[// Instance $SomeClass$.
-private $SomeClass$ _someClassHelper = $SomeClass$.Instance;$end$]]>
+private $SomeClass$ $someHelper$ = $SomeClass$.Instance;$end$]]>
       </Code>
       <Declarations>
         <Literal>
           <ID>SomeClass</ID>
           <ToolTip>Type own text question.</ToolTip>
           <Default>SomeClass</Default>
+        </Literal>
+        <Literal>
+          <ID>someHelper</ID>
+          <ToolTip>Helper name.</ToolTip>
+          <Default>_someHelper</Default>
         </Literal>
       </Declarations>
     </Snippet>
