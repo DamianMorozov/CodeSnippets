@@ -6,12 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.95] - 2020-10-11
+## [0.2.99] - 2020-10-11
 ### Changed
 - Notifications\INotifyPropertyChanged class.snippet
 - Notifications\INotifyPropertyChanged context.snippet
 - Notifications\INotifyPropertyChanged instance.snippet
 - Notifications\INotifyPropertyChanged region.snippet
+- Patterns\Pattern Singleton 3.5.snippet
+- Patterns\Pattern Singleton Instance.snippet
+- Patterns\Pattern Singleton Lazy.snippet
+- Patterns\Pattern Singleton LazyInitializer.snippet
 
 ## [0.2.91] - 2020-10-10
 ### Added
