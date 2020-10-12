@@ -17,9 +17,9 @@
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void OnPropertyRaised([CallerMemberName] string caller = "")
+        private void OnPropertyRaised([CallerMemberName] string memberName = "")
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(caller));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(memberName));
         }
 
         #endregion$end$]]>
