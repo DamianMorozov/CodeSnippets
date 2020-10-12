@@ -13,61 +13,58 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[
-//using System.ComponentModel;
-//using System.Runtime.CompilerServices;
-
-/// <summary>
-/// 
+        <![CDATA[/// <summary>
+/// $Class$
 /// </summary>
 public class SampleClass : INotifyPropertyChanged
 {
-	#region Constructor
+    #region Public and private fields and properties
 
-	/// <summary>
-	/// 
-	/// </summary>
-	public SampleClass()
-	{
-		SampleProperty = default;
-	}
+    //
 
-	#endregion
+    #endregion
 
-	#region Public fields and properties
+    #region Constructor and destructor
 
-	private int _sampleProperty;
-	/// <summary>
-	/// 
-	/// </summary>
-	public int SampleProperty
-	{
-		get => _sampleProperty;
-		set
-		{
-			_sampleProperty = value;
-			OnPropertyRaised();
-		}
-	}
+    public SampleClass()
+    {
+        SetupDefault();
+    }
 
-	#endregion
+    public void SetupDefault()
+    {
+        //
+    }
 
-	#region INotifyPropertyChanged
+    #endregion
 
-	/// <summary>
-	/// INotifyPropertyChanged.
-	/// </summary>
-	public event PropertyChangedEventHandler PropertyChanged;
+    #region INotifyPropertyChanged
 
-	private void OnPropertyRaised([CallerMemberName] string caller = "")
-	{
-		PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(caller));
-	}
+    public event PropertyChangedEventHandler PropertyChanged;
 
-	#endregion
-}
-	$end$]]>
+    private void OnPropertyRaised([CallerMemberName] string memberName = "")
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(memberName));
+    }
+
+    #endregion
+}$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>Class</ID>
+          <ToolTip>Class description.</ToolTip>
+          <Default>Class description.</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.ComponentModel</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Runtime.CompilerServices</Namespace>
+        </Import>
+      </Imports>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
