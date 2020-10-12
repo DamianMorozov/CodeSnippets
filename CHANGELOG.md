@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.102] - 2020-10-12
+### Changed
+- Regions\Region fields and properties.snippet
+- Regions\Region helpers.snippet
+- Regions\Region methods.snippet
+
 ## [0.2.99] - 2020-10-11
 ### Changed
 - Notifications\INotifyPropertyChanged class.snippet
