@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>StringBuilder foreach</Title>
+      <Shortcut>cs_stringbuilder_foreach</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[foreach (var item in $sb$.ToString().Split(new[] { Environment.NewLine, "\n" }, StringSplitOptions.None))
+{
+  //
+}$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>sb</ID>
+          <ToolTip>StringBuilder name.</ToolTip>
+          <Default>sb</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Text</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
