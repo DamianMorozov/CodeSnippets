@@ -6,9 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.109] - 2020-10-18
+## [0.2.110] - 2020-10-18
 ### Changed
 - Visual Studio C#\Async\Task.Run async.snippet
+
+## [0.2.109] - 2020-10-16
+### Added
+- Strings\StringBuilder foreach.snippet
 
 ## [0.2.108] - 2020-10-12
 ### Added
