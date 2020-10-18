@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>await Task.Run</Title>
-      <Shortcut>cs_async_taskrun</Shortcut>
+      <Title>Task.Run async</Title>
+      <Shortcut>cs_task_run_async</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -13,17 +13,16 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[// $Message$
-await Task.Run(() => 
-{ 
-    $selected$
+        <![CDATA[Task.Run(async () =>
+{
+  await $Task$
 });$end$]]>
       </Code>
       <Declarations>
         <Literal>
-          <ID>Message</ID>
-          <ToolTip>Type own text message.</ToolTip>
-          <Default>Code comment.</Default>
+          <ID>Task</ID>
+          <ToolTip>Task method.</ToolTip>
+          <Default>Task_method</Default>
         </Literal>
       </Declarations>
     </Snippet>
