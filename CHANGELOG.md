@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.111] - 2020-10-22
+### Added
+- Visual Studio C#\Async\await Task.Delay.snippet
+
 ## [0.2.110] - 2020-10-18
 ### Changed
 - Visual Studio C#\Async\Task.Run async.snippet
