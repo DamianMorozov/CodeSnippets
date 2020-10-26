@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Tests InternalsVisibleTo</Title>
+      <Shortcut>cs_tests_internalsvisibleto</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("$ProjectTests$")]$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>ProjectTests</ID>
+          <ToolTip>Project.Tests name</ToolTip>
+          <Default>Project.Tests</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
