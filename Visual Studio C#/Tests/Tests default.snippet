@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Testing default</Title>
-      <Shortcut>cs_testing_default</Shortcut>
+      <Title>Tests default</Title>
+      <Shortcut>cs_tests_default</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -13,10 +13,8 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[using NUnit.Framework;
-using System.Diagnostics;
-	
-namespace Namespace.Tests
+        <![CDATA[
+namespace $NamespaceTests$
 {
 	[TestFixture]
 	public class ProgramTests
@@ -65,6 +63,21 @@ namespace Namespace.Tests
 	}
 }$end$]]>
       </Code>
+      <Declarations>
+        <Literal>
+          <ID>NamespaceTests</ID>
+          <ToolTip>Namespace.Tests name</ToolTip>
+          <Default>Namespace.Tests</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>NUnit.Framework</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Diagnostics</Namespace>
+        </Import>
+      </Imports>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
