@@ -18,17 +18,17 @@
     /// <summary>
     /// Tests utilites.
     /// </summary>
-    public static class Utils
+    internal static class Utils
     {
         internal static void MethodStart([CallerMemberName] string memberName = "")
         {
             TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-            TestContext.WriteLine($@"{memberName} start.");
+            TestContext.WriteLine($$@"{memberName} start.");
         }
 
         internal static void MethodComplete([CallerMemberName] string memberName = "")
         {
-            TestContext.WriteLine($@"{memberName} complete.");
+            TestContext.WriteLine($$@"{memberName} complete.");
         }
     }
 }
