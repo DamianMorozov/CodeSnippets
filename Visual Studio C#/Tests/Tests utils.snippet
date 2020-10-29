@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Tests utils</Title>
+      <Shortcut>cs_tests_utils</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[namespace AffinityWatcher.Tests
+{
+    /// <summary>
+    /// Tests utilites.
+    /// </summary>
+    public static class Utils
+    {
+        internal static void MethodStart([CallerMemberName] string memberName = "")
+        {
+            TestContext.WriteLine(@"--------------------------------------------------------------------------------");
+            TestContext.WriteLine($@"{memberName} start.");
+        }
+
+        internal static void MethodComplete([CallerMemberName] string memberName = "")
+        {
+            TestContext.WriteLine($@"{memberName} complete.");
+        }
+    }
+}
+$end$]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>NUnit.Framework</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Runtime.CompilerServices</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
