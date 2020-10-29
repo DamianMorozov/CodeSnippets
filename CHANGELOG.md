@@ -6,9 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.114] - 2020-10-29
+## [0.2.115] - 2020-10-29
 ### Added
 - Visual Studio C#\Tests\Tests utils.snippet
+### Changed
+- Visual Studio C#\Tests\Tests default.snippet
 
 ## [0.2.113] - 2020-10-26
 ### Added

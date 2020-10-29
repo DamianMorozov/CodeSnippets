@@ -15,58 +15,57 @@
       <Code Language="csharp">
         <![CDATA[namespace $NamespaceTests$
 {
-	[TestFixture]
-	public class ProgramTests
-	{
-		/// <summary>
-		/// Setup private fields.
-		/// </summary>
-		[SetUp]
-		public void Setup()
-		{
-			TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-			TestContext.WriteLine($$@"{nameof(Setup)} start.");
-			// 
-			TestContext.WriteLine($$@"{nameof(Setup)} complete.");
-		}
+    [TestFixture]
+    internal class $ProgramTests$
+    {
+        /// <summary>
+        /// Setup private fields.
+        /// </summary>
+        [SetUp]
+        public void Setup()
+        {
+            Utils.MethodStart();
+            // 
+            Utils.MethodComplete();
+        }
 
-		/// <summary>
-		/// Reset private fields to default state.
-		/// </summary>
-		[TearDown]
-		public void Teardown()
-		{
-			TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-			TestContext.WriteLine($$@"{nameof(Teardown)} start.");
-			// 
-			TestContext.WriteLine($$@"{nameof(Teardown)} complete.");
-			TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-		}
+        /// <summary>
+        /// Reset private fields to default state.
+        /// </summary>
+        [TearDown]
+        public void Teardown()
+        {
+            Utils.MethodStart();
+            // 
+            Utils.MethodComplete();
+        }
 
-		[Test]
-		public void Foo_AreEqual()
-		{
-			TestContext.WriteLine(@"--------------------------------------------------------------------------------");
-			TestContext.WriteLine($$@"{nameof(Foo_AreEqual)} start.");
-			var sw = Stopwatch.StartNew();
-			
-			int actual = default;
-			// 
-			int expected = default;
-			TestContext.WriteLine($$"actual/expected: {actual}");
-			Assert.AreEqual(expected, actual);
-			
-			sw.Stop();
-			TestContext.WriteLine($$@"{nameof(Foo_AreEqual)} complete. Elapsed time: {sw.Elapsed}");
-		}
-	}
+        [Test]
+        public void Foo_AreEqual()
+        {
+            Utils.MethodStart();
+
+            int actual = default;
+            // 
+            int expected = default;
+            TestContext.WriteLine($$"actual/expected: {actual}");
+            Assert.AreEqual(expected, actual);
+
+            Utils.MethodComplete();
+        }
+    }
 }$end$]]>
       </Code>
       <Declarations>
         <Literal>
           <ID>NamespaceTests</ID>
-          <ToolTip>Namespace.Tests name</ToolTip>
+          <ToolTip>Namespace for tests</ToolTip>
           <Default>Namespace.Tests</Default>
+        </Literal>
+        <Literal>
+          <ID>ProgramTests</ID>
+          <ToolTip>Class name for tests</ToolTip>
+          <Default>ProgramTests</Default>
         </Literal>
       </Declarations>
       <Imports>
