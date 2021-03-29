@@ -13,7 +13,7 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[var query = string.Format(@"$Query$".TrimStart('\r', ' ', '\n').TrimEnd('\r', ' ', '\n').Replace(Environment.NewLine, " "),);$end$]]>
+        <![CDATA[var query = string.Format(@"$Query$".TrimStart('\r', ' ', '\n', '\t').TrimEnd('\r', ' ', '\n', '\t').Replace(Environment.NewLine, " "),);$end$]]>
       </Code>
       <Declarations>
         <Literal>
