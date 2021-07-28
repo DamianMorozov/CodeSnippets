@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ASP Blazor Data AccessEntity</Title>
+      <Shortcut>bl_data_access</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+<![CDATA[
+/// <summary>
+/// appsettings.json
+/// </summary>
+public class BlazorDataAccessEntity
+{
+    public IConfiguration Configuration { get; }
+    public string Server => Configuration["Sql:Server"];
+    public string Db => Configuration["Sql:Db"];
+    public bool Trusted => Convert.ToBoolean(Configuration["Sql:Trusted"]);
+    public string Username => Configuration["Sql:Username"];
+    public string Password => Configuration["Sql:Password"];
+
+    public BlazorDataAccessEntity(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
+    public override string ToString()
+    {
+        string strTrusted = Trusted ? $Dollar$"{nameof(Trusted)}: true." : $Dollar$"{nameof(Username)}: {Username}. {nameof(Password)}: {Password}.";
+        return $Dollar$"{nameof(Server)}: { Server}. " + $Dollar$"{nameof(Db)}: {Db}. " + $Dollar$"{strTrusted}";
+    }
+}
+$end$]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.Extensions.Configuration</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>Dollar</ID>
+          <ToolTip>Type own text message.</ToolTip>
+          <Default>$</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
