@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ASP Blazor IBaseRazorEntity</Title>
+      <Shortcut>bl_ibaserazor</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+<![CDATA[
+public interface IBaseRazorEntity
+{
+    #region Public and private fields and properties - Parameter
+
+    [Parameter] int FontSizeHeader { get; set; }
+    [Parameter] int FontSize { get; set; }
+
+    #endregion
+
+    #region Public and private fields and properties - Inject
+
+    [Inject] BlazorSettingsEntity BlazorSettings { get; set; }
+    [Inject] DataAccessConfig DataAccessConfig { get; set; }
+    [Inject] DialogService Dialog { get; set; }
+    [Inject] HotKeys HotKeys { get; set; }
+    [Inject] IJSRuntime JsRuntime { get; set; }
+    [Inject] NavigationManager Navigation { get; set; }
+    [Inject] NotificationService Notification { get; set; }
+    [Inject] TooltipService Tooltip { get; set; }
+
+    #endregion
+}
+$end$]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>Microsoft.AspNetCore.Components</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.JSInterop</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Radzen</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Toolbelt.Blazor.HotKeys</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
