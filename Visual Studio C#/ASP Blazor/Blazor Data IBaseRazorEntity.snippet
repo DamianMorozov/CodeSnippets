@@ -14,7 +14,7 @@
     <Snippet>
       <Code Language="csharp">
 <![CDATA[
-public interface IBaseRazorEntity
+public interface IBaseRazorEntity : IDisposable
 {
 #region Public and private fields and properties - Parameter
 
@@ -26,9 +26,9 @@ public interface IBaseRazorEntity
 #region Public and private fields and properties - Inject
 
 [Inject] BlazorSettingsEntity BlazorSettings { get; set; }
-[Inject] BlazorDataAccessEntity BlazorDataAccess { get; set; }
 [Inject] DialogService Dialog { get; set; }
 [Inject] HotKeys HotKeys { get; set; }
+[Inject] JsonAppSettingsEntity JsonAppSettings { get; set; }
 [Inject] IJSRuntime JsRuntime { get; set; }
 [Inject] NavigationManager Navigation { get; set; }
 [Inject] NotificationService Notification { get; set; }

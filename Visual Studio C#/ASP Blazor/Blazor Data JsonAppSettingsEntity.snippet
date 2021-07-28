@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ASP Blazor Data AccessEntity</Title>
-      <Shortcut>bl_data_access</Shortcut>
+      <Title>ASP Blazor Data JsonAppSettingsEntity</Title>
+      <Shortcut>bl_data_jsonapp</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -17,25 +17,25 @@
 /// <summary>
 /// appsettings.json
 /// </summary>
-public class BlazorDataAccessEntity
+public class JsonAppSettingsEntity
 {
-    public IConfiguration Configuration { get; }
-    public string Server => Configuration["Sql:Server"];
-    public string Db => Configuration["Sql:Db"];
-    public bool Trusted => Convert.ToBoolean(Configuration["Sql:Trusted"]);
-    public string Username => Configuration["Sql:Username"];
-    public string Password => Configuration["Sql:Password"];
+public IConfiguration Configuration { get; }
+public string Server => Configuration["Sql:Server"];
+public string Db => Configuration["Sql:Db"];
+public bool Trusted => Convert.ToBoolean(Configuration["Sql:Trusted"]);
+public string Username => Configuration["Sql:Username"];
+public string Password => Configuration["Sql:Password"];
 
-    public BlazorDataAccessEntity(IConfiguration configuration)
-    {
-        Configuration = configuration;
-    }
+public JsonAppSettingsEntity(IConfiguration configuration)
+{
+Configuration = configuration;
+}
 
-    public override string ToString()
-    {
-        string strTrusted = Trusted ? $Dollar$"{nameof(Trusted)}: true." : $Dollar$"{nameof(Username)}: {Username}. {nameof(Password)}: {Password}.";
-        return $Dollar$"{nameof(Server)}: { Server}. " + $Dollar$"{nameof(Db)}: {Db}. " + $Dollar$"{strTrusted}";
-    }
+public override string ToString()
+{
+string strTrusted = Trusted ? $Dollar$"{nameof(Trusted)}: true." : $Dollar$"{nameof(Username)}: {Username}. {nameof(Password)}: {Password}.";
+return $Dollar$"{nameof(Server)}: { Server}. " + $Dollar$"{nameof(Db)}: {Db}. " + $Dollar$"{strTrusted}";
+}
 }
 $end$]]>
       </Code>
