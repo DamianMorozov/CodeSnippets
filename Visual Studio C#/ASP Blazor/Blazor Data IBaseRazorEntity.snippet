@@ -16,25 +16,25 @@
 <![CDATA[
 public interface IBaseRazorEntity
 {
-    #region Public and private fields and properties - Parameter
+#region Public and private fields and properties - Parameter
 
-    [Parameter] int FontSizeHeader { get; set; }
-    [Parameter] int FontSize { get; set; }
+[Parameter] int FontSizeHeader { get; set; }
+[Parameter] int FontSize { get; set; }
 
-    #endregion
+#endregion
 
-    #region Public and private fields and properties - Inject
+#region Public and private fields and properties - Inject
 
-    [Inject] BlazorSettingsEntity BlazorSettings { get; set; }
-    [Inject] BlazorDataAccessEntity DataAccess { get; set; }
-    [Inject] DialogService Dialog { get; set; }
-    [Inject] HotKeys HotKeys { get; set; }
-    [Inject] IJSRuntime JsRuntime { get; set; }
-    [Inject] NavigationManager Navigation { get; set; }
-    [Inject] NotificationService Notification { get; set; }
-    [Inject] TooltipService Tooltip { get; set; }
+[Inject] BlazorSettingsEntity BlazorSettings { get; set; }
+[Inject] BlazorDataAccessEntity DataAccess { get; set; }
+[Inject] DialogService Dialog { get; set; }
+[Inject] HotKeys HotKeys { get; set; }
+[Inject] IJSRuntime JsRuntime { get; set; }
+[Inject] NavigationManager Navigation { get; set; }
+[Inject] NotificationService Notification { get; set; }
+[Inject] TooltipService Tooltip { get; set; }
 
-    #endregion
+#endregion
 }
 $end$]]>
       </Code>
