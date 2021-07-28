@@ -6,8 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.119] - 2021-07-28
+## [0.2.120] - 2021-07-28
 ### Added
+- Visual Studio C#\ASP Blazor\Blazor properties inject.snippet
 - Visual Studio C#\ASP Blazor\Blazor properties parameter.snippet
 
 ## [0.2.118] - 2021-03-29
