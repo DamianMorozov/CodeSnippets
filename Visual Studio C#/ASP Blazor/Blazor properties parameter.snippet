@@ -13,16 +13,27 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[#region Public and private fields and properties - Parameter
+<![CDATA[
+#region Public and private fields and properties - Parameter
 
 [Parameter] public int FontSizeHeader { get; set; }
 [Parameter] public int FontSize { get; set; }
 
-#endregion$end$]]>
+#endregion
+$end$]]>
       </Code>
       <Imports>
         <Import>
           <Namespace>Microsoft.AspNetCore.Components</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.JSInterop</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Radzen</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Toolbelt.Blazor.HotKeys</Namespace>
         </Import>
       </Imports>
     </Snippet>
