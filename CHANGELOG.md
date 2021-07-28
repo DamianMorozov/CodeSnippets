@@ -6,12 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.122] - 2021-07-28
+## [0.2.123] - 2021-07-28
 ### Added
-- Visual Studio C#\ASP Blazor\Blazor IBaseRazorEntity.snippet
-- Visual Studio C#\ASP Blazor\Blazor properties inject.snippet
-- Visual Studio C#\ASP Blazor\Blazor properties inject and parameter.snippet
-- Visual Studio C#\ASP Blazor\Blazor properties parameter.snippet
+- Visual Studio C#\ASP Blazor\Blazor Data IBaseRazorEntity.snippet
+- Visual Studio C#\ASP Blazor\Blazor Properties Inject.snippet
+- Visual Studio C#\ASP Blazor\Blazor Properties Inject and Parameter.snippet
+- Visual Studio C#\ASP Blazor\Blazor Properties Parameter.snippet
 
 ## [0.2.118] - 2021-03-29
 ### Changed

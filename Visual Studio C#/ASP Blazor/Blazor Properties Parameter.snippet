@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ASP Blazor properties inject</Title>
-      <Shortcut>bl_prop_inj</Shortcut>
+      <Title>ASP Blazor properties parameter</Title>
+      <Shortcut>bl_prop_param</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -14,16 +14,10 @@
     <Snippet>
       <Code Language="csharp">
 <![CDATA[
-#region Public and private fields and properties - Inject
+#region Public and private fields and properties - Parameter
 
-[Inject] public BlazorSettingsEntity BlazorSettings { get; set; }
-[Inject] public DataAccessConfig DataAccessConfig { get; set; }
-[Inject] public DialogService Dialog { get; set; }
-[Inject] public HotKeys HotKeys { get; set; }
-[Inject] public IJSRuntime JsRuntime { get; set; }
-[Inject] public NavigationManager Navigation { get; set; }
-[Inject] public NotificationService Notification { get; set; }
-[Inject] public TooltipService Tooltip { get; set; }
+[Parameter] public int FontSizeHeader { get; set; }
+[Parameter] public int FontSize { get; set; }
 
 #endregion
 $end$]]>
@@ -31,6 +25,15 @@ $end$]]>
       <Imports>
         <Import>
           <Namespace>Microsoft.AspNetCore.Components</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.JSInterop</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Radzen</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Toolbelt.Blazor.HotKeys</Namespace>
         </Import>
       </Imports>
     </Snippet>
