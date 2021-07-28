@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ASP Blazor properties parameter</Title>
+      <Shortcut>bl_prop_par</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[#region Public and private fields and properties - Parameter
+
+[Parameter] public int FontSizeHeader { get; set; }
+[Parameter] public int FontSize { get; set; }
+
+#endregion$end$]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>Microsoft.AspNetCore.Components</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
