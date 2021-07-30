@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Attribute Runtime</Title>
+      <Shortcut>cs_attr_runtime</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp"><![CDATA[[CallerFilePath] string $filePath$ = "", [CallerLineNumber] int $lineNumber$ = 0, [CallerMemberName] string $memberName$ = ""$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>filePath</ID>
+          <ToolTip>Default value is "".</ToolTip>
+          <Default>filePath</Default>
+        </Literal>
+        <Literal>
+          <ID>lineNumber</ID>
+          <ToolTip>Default value is 0.</ToolTip>
+          <Default>lineNumber</Default>
+        </Literal>
+        <Literal>
+          <ID>memberName</ID>
+          <ToolTip>Default value is "".</ToolTip>
+          <Default>memberName</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Runtime.CompilerServices</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
