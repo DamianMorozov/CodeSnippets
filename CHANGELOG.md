@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.128] - 2021-08-13
+### Added
+- Visual Studio C#\Attributes\Attribute SupportedOSPlatform.snippet
+
 ## [0.2.127] - 2021-07-30
 ### Added
 - Visual Studio C#\Attributes\Attribute Runtime.snippet
