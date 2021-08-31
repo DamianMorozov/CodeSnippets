@@ -5,8 +5,8 @@ Code snippets for Visual Studio and other programs
 
 For use a code snippet press `Ctrl + K, S`
 
-## Screenshots
+# Screenshots
 ![](Assets/PopupMenu.png?raw=true)
 
-## Please, if this tool has been useful for you consider to donate
-[![Buy me a coffee](Assets/Buy_me_a_coffee.png?raw=true)](https://www.buymeacoffee.com/DamianVM)
+# Support
+<p>Please, if this tools has been useful for you click on the `star` button.</p>
