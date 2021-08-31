@@ -14,10 +14,21 @@
     <Snippet>
       <Code Language="csharp">
         <![CDATA[/// <summary>
-/// $Class$
+/// $ClassDescription$.
 /// </summary>
-public class SampleClass : INotifyPropertyChanged
+public class $ClassName$ : INotifyPropertyChanged
 {
+    #region INotifyPropertyChanged
+
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    public void OnPropertyRaised([CallerMemberName] string memberName = "")
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(memberName));
+    }
+
+    #endregion
+    
     #region Public and private fields and properties
 
     //
@@ -26,25 +37,14 @@ public class SampleClass : INotifyPropertyChanged
 
     #region Constructor and destructor
 
-    public SampleClass()
+    public $ClassName$()
     {
-        SetupDefault();
+        Setup();
     }
 
-    public void SetupDefault()
+    public void Setup()
     {
         //
-    }
-
-    #endregion
-
-    #region INotifyPropertyChanged
-
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    private void OnPropertyRaised([CallerMemberName] string memberName = "")
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(memberName));
     }
 
     #endregion
@@ -52,9 +52,14 @@ public class SampleClass : INotifyPropertyChanged
       </Code>
       <Declarations>
         <Literal>
-          <ID>Class</ID>
-          <ToolTip>Class description.</ToolTip>
-          <Default>Class description.</Default>
+          <ID>ClassName</ID>
+          <ToolTip>Class name</ToolTip>
+          <Default>ClassName</Default>
+        </Literal>
+        <Literal>
+          <ID>ClassDescription</ID>
+          <ToolTip>Class description</ToolTip>
+          <Default>Class description</Default>
         </Literal>
       </Declarations>
       <Imports>
