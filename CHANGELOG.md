@@ -6,9 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.131] - 2021-09-14
+## [0.2.132] - 2021-09-14
 ### Changed
 - Visual Studio C#\Async\Task.Run async.snippet
+### Added
+- Visual Studio C#\Async\Task.Run sync.snippet
 
 ## [0.2.130] - 2021-08-31
 ### Changed
