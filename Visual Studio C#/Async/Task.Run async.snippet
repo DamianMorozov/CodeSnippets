@@ -13,16 +13,16 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[Task.Run(async () =>
-{
-  await $Task$
-});$end$]]>
+        <![CDATA[_ = Task.Run(async () =>
+            {
+                await $Task$();
+            });$end$]]>
       </Code>
       <Declarations>
         <Literal>
           <ID>Task</ID>
           <ToolTip>Task method.</ToolTip>
-          <Default>Task_method</Default>
+          <Default>MethodAsync</Default>
         </Literal>
       </Declarations>
     </Snippet>

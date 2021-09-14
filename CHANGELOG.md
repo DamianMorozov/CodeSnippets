@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.131] - 2021-09-14
+### Changed
+- Visual Studio C#\Async\Task.Run async.snippet
+
 ## [0.2.130] - 2021-08-31
 ### Changed
 - Visual Studio C#\Notifications\INotifyPropertyChanged class.snippet
