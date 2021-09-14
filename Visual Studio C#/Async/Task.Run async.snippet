@@ -15,7 +15,7 @@
       <Code Language="csharp">
         <![CDATA[_ = Task.Run(async () =>
             {
-                await $Task$();
+                await $Task$().ConfigureAwait(true);
             });$end$]]>
       </Code>
       <Declarations>
