@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.133] - 2021-09-21
+### Added
+- Visual Studio C#\Strings\Trim start end.snippet
+
 ## [0.2.132] - 2021-09-14
 ### Changed
 - Visual Studio C#\Async\Task.Run async.snippet
