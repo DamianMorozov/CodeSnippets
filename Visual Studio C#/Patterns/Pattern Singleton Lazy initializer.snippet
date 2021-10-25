@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Pattern Singleton Lazy</Title>
-      <Shortcut>cs_patt_singleton_lazy</Shortcut>
+      <Title>Pattern Singleton Lazy initializer</Title>
+      <Shortcut>cs_patt_singleton_lazy_initializer</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -13,19 +13,18 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[public sealed class $SomeClass$
+        <![CDATA[public class $SomeClass$
 {
 #region Design pattern "Lazy Singleton"
 
-// ReSharper disable once InconsistentNaming
-private static readonly Lazy<$SomeClass$> _instance = new Lazy<$SomeClass$>(() => new $SomeClass$());
-public static $SomeClass$ Instance => _instance.Value;
+private static $SomeClass$ _instance;
+public static $SomeClass$ Instance => LazyInitializer.EnsureInitialized(ref _instance);
 
 #endregion
 
 #region Constructor and destructor
 
-private $SomeClass$() { SetupDefault(); }
+public $SomeClass$() { SetupDefault(); }
 
 public void SetupDefault()
 {
@@ -59,7 +58,7 @@ public void Setup()
       </Declarations>
       <Imports>
         <Import>
-          <Namespace>System</Namespace>
+          <Namespace>System.Threading</Namespace>
         </Import>
       </Imports>
     </Snippet>
