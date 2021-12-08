@@ -13,18 +13,18 @@
     </Header>
     <Snippet>
       <Code Language="csharp">
-        <![CDATA[private $SomeClass$ $someHelper$ = $SomeClass$.Instance;$end$]]>
+        <![CDATA[public $SomeHelper$ $SomeItem$ { get; private set; } = $SomeHelper$.Instance;$end$]]>
       </Code>
       <Declarations>
         <Literal>
-          <ID>SomeClass</ID>
+          <ID>SomeHelper</ID>
           <ToolTip>Type own text question.</ToolTip>
-          <Default>SomeClass</Default>
+          <Default>SomeHelper</Default>
         </Literal>
         <Literal>
-          <ID>someHelper</ID>
+          <ID>SomeItem</ID>
           <ToolTip>Helper name.</ToolTip>
-          <Default>_someHelper</Default>
+          <Default>SomeItem</Default>
         </Literal>
       </Declarations>
     </Snippet>
