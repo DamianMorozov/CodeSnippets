@@ -6,9 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.138] - 2021-12-08
+## [0.2.139] - 2021-12-08
 ### Changed
 - Visual Studio C#\Patterns\Pattern Singleton Lazy instance.snippet
+- Visual Studio C#\Patterns\Pattern Singleton Lazy region.snippet
 
 ## [0.2.137] - 2021-10-25
 ### Changed
