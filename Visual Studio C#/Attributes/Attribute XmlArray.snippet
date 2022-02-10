@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Attribute XmlAttribute</Title>
-      <Shortcut>cs_attr_xmlattribute</Shortcut>
+      <Title>Attribute XmlArray</Title>
+      <Shortcut>cs_attr_xmlarray</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -12,13 +12,13 @@
       </SnippetTypes>
     </Header>
     <Snippet>
-      <Code Language="CSharp"><![CDATA[[XmlAttribute("$attrName$")]$end$]]>
+      <Code Language="CSharp"><![CDATA[[XmlArray("$attrNode$")]$end$]]>
       </Code>
       <Declarations>
         <Literal>
-          <ID>attrName</ID>
-          <ToolTip>Attribute name</ToolTip>
-          <Default>Name</Default>
+          <ID>attrNode</ID>
+          <ToolTip>Attribute node</ToolTip>
+          <Default>Node</Default>
         </Literal>
       </Declarations>
     </Snippet>

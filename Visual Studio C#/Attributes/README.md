@@ -12,4 +12,6 @@
 - [Attribute Runtime.CompilerServices.CallerMemberName](Attribute%20Runtime.CompilerServices.CallerMemberName.snippet)
 - [Attribute Runtime](Attribute%20Runtime.snippet)
 - [Attribute SupportedOSPlatform](Attribute%20SupportedOSPlatform.snippet)
+- [Attribute XmlArray](Attribute%20XmlArray.snippet)
+- [Attribute XmlArrayItem](Attribute%20XmlArrayItem.snippet)
 - [Attribute XmlAttribute](Attribute%20XmlAttribute.snippet)
