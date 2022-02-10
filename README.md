@@ -10,20 +10,8 @@ For use a code snippet press `Ctrl + K, S`
 ![](Assets/PopupMenu.png?raw=true)
 
 
-# Visual Studio C Sharp
-## ASP Blazor
-## Async
-## Attributes
-## Braces
-## Comments
-## Debugger
-## Enums
-## MessageBox
-## Notifications
-## Patterns
-## Regions
-## Strings
-## Tests
+# Visual Studio C#
+- [Visual Studio C#](Visual%20Studio%20C#/README.md)
 
 
 # Support
