@@ -11,7 +11,7 @@ For use a code snippet press `Ctrl + K, S`
 
 
 # Visual Studio C#
-- [Visual Studio C#](Visual%20Studio%20C#/README.md)
+- [Visual Studio C#](Visual%20Studio%20C%23/README.md)
 
 
 # Support
