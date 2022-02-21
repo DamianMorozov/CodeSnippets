@@ -6,6 +6,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.160] - 2022-02-21
+### Added
+- Visual Studio C#\ASP Blazor\README.md
+- Visual Studio C#\Async\README.md
+- Visual Studio C#\Braces\README.md
+- Visual Studio C#\Comments\README.md
+- Visual Studio C#\Debugger\README.md
+- Visual Studio C#\Enums\README.md
+- Visual Studio C#\MessageBox\README.md
+- Visual Studio C#\Notifications\README.md
+- Visual Studio C#\Patterns\README.md
+- Visual Studio C#\Regions\README.md
+- Visual Studio C#\Strings\README.md
+- Visual Studio C#\Tests\README.md
+### Changed
+- Visual Studio C#\Attributes\README.md
+- README.md
+
 ## [0.2.147] - 2022-02-10
 ### Added
 - Visual Studio C#\Attributes\Attribute XmlArray.snippet

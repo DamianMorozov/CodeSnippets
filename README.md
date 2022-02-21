@@ -10,7 +10,7 @@ For use a code snippet press `Ctrl + K, S`
 ![](Assets/PopupMenu.png?raw=true)
 
 
-# Visual Studio C#
+# Sections
 - [Visual Studio C#](Visual%20Studio%20C%23/README.md)
 
 
