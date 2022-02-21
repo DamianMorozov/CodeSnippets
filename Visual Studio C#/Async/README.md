@@ -7,5 +7,7 @@
 - [await AsyncAwaiterResult](await%20AsyncAwaiterResult.snippet)
 - [await AsyncAwaiterVoid.snippet](await%20AsyncAwaiterVoid.snippet)
 - [await Task.Delay](await%20Task.Delay.snippet)
+- [locker declare](locker%20declare.snippet)
+- [locker lock](locker%20lock.snippet)
 - [Task.Run async](Task.Run%20async.snippet)
 - [Task.Run sync](Task.Run%20sync.snippet)

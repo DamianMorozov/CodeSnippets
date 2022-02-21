@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>locker lock</Title>
+      <Shortcut>cs_locker_lock</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[lock ($locker$)
+{
+$selected$
+}$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>locker</ID>
+          <ToolTip>Locker object</ToolTip>
+          <Default>_locker</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

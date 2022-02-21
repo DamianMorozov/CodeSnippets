@@ -6,10 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.160] - 2022-02-21
+## [0.2.162] - 2022-02-21
 ### Added
 - Visual Studio C#\ASP Blazor\README.md
 - Visual Studio C#\Async\README.md
+- Visual Studio C#\Async\locker declare.snippet
+- Visual Studio C#\Async\locker lock.snippet
 - Visual Studio C#\Braces\README.md
 - Visual Studio C#\Comments\README.md
 - Visual Studio C#\Debugger\README.md
