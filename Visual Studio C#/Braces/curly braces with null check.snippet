@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>curly braces with null check</Title>
+      <Shortcut>cs_curly_braces_null_check</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp"><![CDATA[if ($item$ != null)
+{$selected$$end$
+}]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>item</ID>
+          <ToolTip>Item name</ToolTip>
+          <Default>item</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

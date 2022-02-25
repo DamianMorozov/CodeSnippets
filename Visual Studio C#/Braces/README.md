@@ -6,3 +6,4 @@
 # Items
 - [curly braces on one line](curly%20braces%20on%20one%20line.snippet)
 - [curly braces on separate lines](curly%20braces%20on%20separate%20lines.snippet)
+- [curly braces with null check](curly%20braces%20with%20null%20check.snippet)

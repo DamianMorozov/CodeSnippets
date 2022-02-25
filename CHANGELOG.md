@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.163] - 2022-02-25
+### Added
+- Visual Studio C#\Braces\curly braces with null check.snippet
+
 ## [0.2.162] - 2022-02-21
 ### Added
 - Visual Studio C#\ASP Blazor\README.md
