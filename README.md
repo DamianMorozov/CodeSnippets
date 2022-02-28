@@ -5,14 +5,11 @@ Code snippets for Visual Studio and other programs
 
 For use a code snippet press `Ctrl + K, S`
 
-
 # Screenshots
 ![](Assets/PopupMenu.png?raw=true)
-
 
 # Sections
 - [Visual Studio C#](Visual%20Studio%20C%23/README.md)
 
-
 # Support
-<p>Please, if this tools has been useful for you click on the `star` button.</p>
+Please click the `star` button if this tool was helpful to you.
