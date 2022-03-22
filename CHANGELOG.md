@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.165] - 2022-03-22
+### Changed
+- Visual Studio C#\Attributes\Attribute Obsolete.snippet
+
 ## [0.2.164] - 2022-02-28
 ### Changed
 - README.md
