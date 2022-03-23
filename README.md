@@ -5,6 +5,9 @@ Code snippets for Visual Studio and other programs
 
 For use a code snippet press `Ctrl + K, S`
 
+- [CHANGELOG](CHANGELOG.md)
+- [LICENSE](LICENSE.md)
+
 # Screenshots
 ![](Assets/PopupMenu.png?raw=true)
 
