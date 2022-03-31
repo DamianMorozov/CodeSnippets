@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.2.168] - 2022-03-31
 ### Changed
-- [Visual Studio C#/Attributes/Attribute XmlIgnore.snippet](Visual%20Studio%20C%23/Attributes/Attribute%20XmlIgnore.snippet)
+- [Visual Studio C#/Attributes/Attribute XmlIgnore](Visual%20Studio%20C%23/Attributes/Attribute%20XmlIgnore.snippet)
+- [Visual Studio C#/Attributes/Attribute XmlIgnoreAttribute](Visual%20Studio%20C%23/Attributes/Attribute%20XmlIgnoreAttribute.snippet)
 
 ## [0.2.166] - 2022-03-23
 ### Changed
