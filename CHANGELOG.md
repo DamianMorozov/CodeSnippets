@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.169] - 2022-04-08
+### Changed
+- [Visual Studio C#/Braces](Visual%20Studio%20C%23/Braces/README.md)
+
 ## [0.2.168] - 2022-03-31
 ### Changed
 - [Visual Studio C#/Attributes/Attribute XmlIgnore](Visual%20Studio%20C%23/Attributes/Attribute%20XmlIgnore.snippet)
