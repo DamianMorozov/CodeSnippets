@@ -24,16 +24,9 @@ public static $SomeClass$ Instance => LazyInitializer.EnsureInitialized(ref _ins
 
 #region Constructor and destructor
 
-public $SomeClass$() { SetupDefault(); }
-
-public void SetupDefault()
+public $SomeClass$()
 {
-    // $MethodsSetupDefault$
-}
-
-public void Setup()
-{
-    // $MethodsSetup$
+  $SomeCode$
 }
 
 #endregion
@@ -46,14 +39,9 @@ public void Setup()
           <Default>SomeClass</Default>
         </Literal>
         <Literal>
-          <ID>MethodsSetupDefault</ID>
-          <ToolTip>Default methods.</ToolTip>
-          <Default>Default methods</Default>
-        </Literal>
-        <Literal>
-          <ID>MethodsSetup</ID>
-          <ToolTip>Setup methods.</ToolTip>
-          <Default>Setup methods</Default>
+          <ID>SomeCode</ID>
+          <ToolTip>Constructor code.</ToolTip>
+          <Default>// Type code here.</Default>
         </Literal>
       </Declarations>
       <Imports>
