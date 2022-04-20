@@ -22,7 +22,7 @@ public class $ClassName$ : INotifyPropertyChanged
 
     public event PropertyChangedEventHandler PropertyChanged;
 
-    public void OnPropertyRaised([CallerMemberName] string memberName = "")
+    public void OnPropertyChanged([CallerMemberName] string memberName = "")
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(memberName));
     }

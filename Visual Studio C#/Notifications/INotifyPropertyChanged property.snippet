@@ -23,7 +23,7 @@
             set
             {
                 $Field$ = value;
-                OnPropertyRaised();
+                OnPropertyChanged();
             }
         }$end$]]>
       </Code>
@@ -50,6 +50,9 @@
         </Literal>
       </Declarations>
       <Imports>
+        <Import>
+          <Namespace>MvvmHelpers</Namespace>
+        </Import>
         <Import>
           <Namespace>System.ComponentModel</Namespace>
         </Import>

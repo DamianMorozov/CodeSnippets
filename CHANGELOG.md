@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.173] - 2022-04-20
+### Changed
+- [Visual Studio C#/Notifications](Visual%20Studio%20C%23/Notifications/README.md)
+
 ## [0.2.170] - 2022-04-18
 ### Changed
 - [Visual Studio C#/Patterns](Visual%20Studio%20C%23/Patterns/README.md)
