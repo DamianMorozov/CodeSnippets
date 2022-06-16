@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.174] - 2022-06-16
+### Added
+- [Visual Studio C#/Ctor/Ctor invoke](Visual%20Studio%20C%23/Ctor/README.md)
+
 ## [0.2.173] - 2022-04-20
 ### Changed
 - [Visual Studio C#/Notifications](Visual%20Studio%20C%23/Notifications/README.md)

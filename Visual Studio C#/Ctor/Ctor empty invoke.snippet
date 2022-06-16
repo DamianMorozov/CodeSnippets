@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Ctor empty invoke</Title>
+      <Shortcut>cs_ctor_empty_invoke</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[typeof($ClassName$).GetConstructor(Type.EmptyTypes)?.Invoke(new object[] { });$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>ClassName</ID>
+          <ToolTip>Type the class name.</ToolTip>
+          <Default>ClassName</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
