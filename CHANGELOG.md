@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.176] - 2022-07-22
+### Added
+- [Visual Studio C#/Regions/Region fields properties construcor](Visual%20Studio%20C%23/Regions/Region%20fields%20properties%20construcor.snippet)
+### Added
+- [Visual Studio C#/Regions/Region fields properties](Visual%20Studio%20C%23/Regions/Region%20fields%20properties.snippet)
+
 ## [0.2.174] - 2022-06-16
 ### Added
 - [Visual Studio C#/Ctor/Ctor invoke](Visual%20Studio%20C%23/Ctor/README.md)
