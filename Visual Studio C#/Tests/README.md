@@ -6,4 +6,5 @@
 # Items
 - [Tests default](Tests%20default.snippet)
 - [Tests InternalsVisibleTo](Tests%20InternalsVisibleTo.snippet)
+- [Tests method](Tests%20method.snippet)
 - [Tests utils](Tests%20utils.snippet)

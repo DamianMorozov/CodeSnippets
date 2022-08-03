@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Tests method</Title>
+      <Shortcut>cs_tests_method</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[[Test]
+public void $Test_Check_Result$()
+{
+	Assert.DoesNotThrow(() =>
+	{
+		// $Arrange$.
+		// $Act$.
+		// $Assert$.
+	});
+}$end$]]>
+      </Code>
+	  <Declarations>
+        <Literal>
+          <ID>Test_Check_Result</ID>
+          <ToolTip>Method name</ToolTip>
+          <Default>Test_Check_Result</Default>
+        </Literal>
+        <Literal>
+          <ID>Arrange</ID>
+          <ToolTip>Arrange</ToolTip>
+          <Default>Arrange</Default>
+        </Literal>
+        <Literal>
+          <ID>Act</ID>
+          <ToolTip>Act</ToolTip>
+          <Default>Act</Default>
+        </Literal>
+        <Literal>
+          <ID>Assert</ID>
+          <ToolTip>Assert</ToolTip>
+          <Default>Assert</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>NUnit.Framework</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Runtime.CompilerServices</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

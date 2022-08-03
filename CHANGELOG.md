@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.177] - 2022-08-03
+### Added
+- [Visual Studio C#/Tests/Tests method](Visual%20Studio%20C%23/Tests/Tests%20method.snippet)
+
 ## [0.2.176] - 2022-07-22
 ### Added
 - [Visual Studio C#/Regions/Region fields properties construcor](Visual%20Studio%20C%23/Regions/Region%20fields%20properties%20construcor.snippet)
