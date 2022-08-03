@@ -14,5 +14,8 @@ For use a code snippet press `Ctrl + K, S`
 # Sections
 - [Visual Studio C#](Visual%20Studio%20C%23/README.md)
 
-# Support
+## Status
+![Alt](https://repobeats.axiom.co/api/embed/26d47f7af4317996f0f804b4d0c1a67e5cb105da.svg "Repobeats analytics image")
+
+## Support
 Please click the `star` button if this tool was helpful to you.
