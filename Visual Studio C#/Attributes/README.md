@@ -14,5 +14,6 @@
 - [Attribute XmlArray](Attribute%20XmlArray.snippet)
 - [Attribute XmlArrayItem](Attribute%20XmlArrayItem.snippet)
 - [Attribute XmlAttribute](Attribute%20XmlAttribute.snippet)
+- [Attribute XmlElement](Attribute%20XmlElement.snippet)
 - [Attribute XmlIgnore](Attribute%20XmlIgnore.snippet)
 - [Attribute XmlIgnoreAttribute](Attribute%20XmlIgnoreAttribute.snippet)
