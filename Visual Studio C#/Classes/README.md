@@ -6,4 +6,5 @@
 # Items
 - [Constructor empty invoke](Constructor%20empty%20invoke.snippet)
 - [Constructor SerializationInfo](Constructor%20SerializationInfo.snippet)
-- [GetObjectData](GetObjectData.snippet)
+- [Method Clone](Method%20Clone.snippet)
+- [Method GetObjectData](Method%20GetObjectData.snippet)
