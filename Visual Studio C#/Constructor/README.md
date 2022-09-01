@@ -4,4 +4,4 @@
 - [Back to the Visual Studio C# page](../README.md)
 
 # Items
-- [Ctor empty invoke](Ctor%20empty%20invoke.snippet)
+- [Constructor empty invoke](Constructor%20empty%20invoke.snippet)

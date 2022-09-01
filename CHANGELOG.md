@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.179] - 2022-09-01
+### Changed
+- [Visual Studio C#/Constructor/Constructor empty invoke](Visual%20Studio%20C%23/Constructor/Constructor%20empty%20invoke.snippet)
+
 ## [0.2.178] - 2022-08-08
 ### Added
 - [Visual Studio C#/Attributes/Attribute XmlElement](Visual%20Studio%20C%23/Attributes/Attribute%20XmlElement.snippet)
