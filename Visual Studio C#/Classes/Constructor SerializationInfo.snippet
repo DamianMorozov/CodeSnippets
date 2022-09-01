@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Constructor SerializationInfo</Title>
+      <Shortcut>cs_classes_ctor_serializationinfo</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[/// <summary>
+/// Constructor.
+/// </summary>
+/// <param name="info"></param>
+/// <param name="context"></param>
+private $ClassName$(SerializationInfo info, StreamingContext context)$base$
+{
+	$PropertyName$ = info.Get(nameof($PropertyName$));
+	$PropertyClass$ = ($PropertyClassModel$)info.GetValue(nameof($PropertyClass$), typeof($PropertyClassModel$));$end$
+}]]>
+      </Code>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>ClassName</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>PropertyName</ID>
+          <ToolTip>Property name</ToolTip>
+          <Default>PropertyName</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>PropertyClass</ID>
+          <ToolTip>Property class</ToolTip>
+          <Default>PropertyClass</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>PropertyClassModel</ID>
+          <ToolTip>Property class model</ToolTip>
+          <Default>PropertyClassModel</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>base</ID>
+          <ToolTip>Base class</ToolTip>
+          <Default> : base(info, context)</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -8,7 +8,7 @@
 - [Attributes](Attributes/README.md)
 - [Braces](Braces/README.md)
 - [Comments](Comments/README.md)
-- [Constructor](Constructor/README.md)
+- [Classes](Classes/README.md)
 - [Debugger](Debugger/README.md)
 - [Enums](Enums/README.md)
 - [MessageBox](MessageBox/README.md)

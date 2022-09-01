@@ -4,7 +4,7 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Title>GetObjectData</Title>
-      <Shortcut>cs_getobjectdata</Shortcut>
+      <Shortcut>cs_classes_getobjectdata</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -18,9 +18,9 @@
 /// </summary>
 /// <param name="info"></param>
 /// <param name="context"></param>
-public new virtual void GetObjectData(SerializationInfo info, StreamingContext context)
+public void GetObjectData(SerializationInfo info, StreamingContext context)
 {
-	base.GetObjectData(info, context);
+	$base$
 	info.AddValue(nameof($PropertyName$), $PropertyName$);$end$
 }]]>
       </Code>
@@ -29,6 +29,11 @@ public new virtual void GetObjectData(SerializationInfo info, StreamingContext c
           <ID>PropertyName</ID>
           <ToolTip>Property name</ToolTip>
           <Default>PropertyName</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>base</ID>
+          <ToolTip>Base method</ToolTip>
+          <Default>base.GetObjectData(info, context);</Default>
         </Literal>
       </Declarations>
     </Snippet>
