@@ -6,9 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.180] - 2022-09-01
+## [0.2.182] - 2022-09-01
 ### Added
 - [Visual Studio C#/Constructor/Constructor SerializationInfo](Visual%20Studio%20C%23/Constructor/Constructor%20SerializationInfo.snippet)
+- [Visual Studio C#/Constructor/GetObjectData](Visual%20Studio%20C%23/Constructor/GetObjectData.snippet)
 ### Changed
 - [Visual Studio C#/Constructor/Constructor empty invoke](Visual%20Studio%20C%23/Constructor/Constructor%20empty%20invoke.snippet)
 
