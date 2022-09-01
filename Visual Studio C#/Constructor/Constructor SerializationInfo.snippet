@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Constructor SerializationInfo</Title>
+      <Shortcut>cs_ctor_serializationinfo</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[/// <summary>
+/// Constructor.
+/// </summary>
+/// <param name="info"></param>
+/// <param name="context"></param>
+private $ClassName$(SerializationInfo info, StreamingContext context) : base(info, context)
+{
+	//PropertyString = info.GetString(nameof(PropertyString));
+	//PropertyBool = info.GetBoolean(nameof(PropertyBool));
+	//PropertyClass = (PropertyClassModel)info.GetValue(nameof(PropertyClass), typeof(PropertyClassModel));
+	$end$
+}]]>
+      </Code>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>ClassName</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -5,3 +5,4 @@
 
 # Items
 - [Constructor empty invoke](Constructor%20empty%20invoke.snippet)
+- [Constructor SerializationInfo](Constructor%20SerializationInfo.snippet)
