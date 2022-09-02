@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.188] - 2022-09-02
+### Changed
+- [Visual Studio C#/Regions/Region fields properties constructor](Visual%20Studio%20C%23/Regions/Region%20fields%20properties%20constructor.snippet)
+
 ## [0.2.187] - 2022-09-01
 ### Added
 - [Visual Studio C#/Classes/Constructor SerializationInfo](Visual%20Studio%20C%23/Classes/Constructor%20SerializationInfo.snippet)
