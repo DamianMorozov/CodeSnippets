@@ -9,3 +9,4 @@
 - [Pattern Singleton Lazy initializer](Pattern%20Singleton%20Lazy%20initializer.snippet)
 - [Pattern Singleton Lazy instance](Pattern%20Singleton%20Lazy%20instance.snippet)
 - [Pattern Singleton Lazy region](Pattern%20Singleton%20Lazy%20region.snippet)
+- [Visual Studio C#/Patterns/Pattern Switch typeof](Visual%20Studio%20C%23/Patterns/Pattern%20Switch%20typeof.snippet)

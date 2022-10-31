@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.191] - 2022-10-31
+### Added
+- [Visual Studio C#/Patterns/Pattern Switch typeof](Visual%20Studio%20C%23/Patterns/Pattern%20Switch%20typeof.snippet)
+
 ## [0.2.190] - 2022-09-02
 ### Changed
 - [Visual Studio C#/Regions](Visual%20Studio%20C%23/Regions/README.md)

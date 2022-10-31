@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Pattern Switch typeof</Title>
+      <Shortcut>cs_patt_switch_typeof</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[switch (typeof($T$))
+{
+	case var cls when cls == typeof($ClassModel$):
+		//
+		break;
+}$end$]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>T</ID>
+          <ToolTip>Generic type.</ToolTip>
+          <Default>T</Default>
+        </Literal>
+        <Literal>
+          <ID>ClassModel</ID>
+          <ToolTip>Class model.</ToolTip>
+          <Default>ClassModel</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
