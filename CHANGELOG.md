@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.193] - 2022-11-10
+### Changed
+- [Visual Studio C#/Classes/Constructor SerializationInfo](Visual%20Studio%20C%23/Classes/Constructor%20SerializationInfo.snippet)
+- [Visual Studio C#/Classes/Method GetObjectData](Visual%20Studio%20C%23/Classes/Method%20GetObjectData.snippet)
+
 ## [0.2.191] - 2022-10-31
 ### Added
 - [Visual Studio C#/Patterns/Pattern Switch typeof](Visual%20Studio%20C%23/Patterns/Pattern%20Switch%20typeof.snippet)
