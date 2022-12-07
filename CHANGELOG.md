@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.194] - 2022-12-07
+### Added
+- [Visual Studio C#/Attributes/Attribute Serializable](Visual%20Studio%20C%23/Attributes/Attribute%20Serializable.snippet)
+
 ## [0.2.193] - 2022-11-10
 ### Changed
 - [Visual Studio C#/Classes/Constructor SerializationInfo](Visual%20Studio%20C%23/Classes/Constructor%20SerializationInfo.snippet)
