@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.196] - 2023-03-27
+### Added
+- [Visual Studio C#/Attributes/Attribute MVC FromQuery](Visual%20Studio%20C%23/Attributes/Attribute%20MVC%20FromQuery.snippet)
+
 ## [0.2.195] - 2022-12-16
 ### Added
 - [Visual Studio C#/Attributes/Attribute DebuggerDisplay](Visual%20Studio%20C%23/Attributes/Attribute%20DebuggerDisplay.snippet)
