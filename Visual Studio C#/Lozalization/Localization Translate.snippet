@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Localization Translate</Title>
+      <Shortcut>cs_loc_translate</Shortcut>
+      <Description>Paste code</Description>
+      <Author>Damian Viktorovich Morozov</Author>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+	<Snippet>
+      <Code Language="csharp"><![CDATA[public string $SomeString$ => Locale.Translate($$"{$LocalizationUtils$.$ParentNameSpace$}.{nameof($SomeString$)}");$end$]]></Code>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>SomeString</ID>
+          <ToolTip>Variable type</ToolTip>
+          <Default>SomeString</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>LocalizationUtils</ID>
+          <ToolTip>Static name utils</ToolTip>
+          <Default>MyLocalizationUtils</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ParentNameSpace</ID>
+          <ToolTip>Parent name utils</ToolTip>
+          <Default>MyParentNameSpace</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
