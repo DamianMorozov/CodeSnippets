@@ -12,19 +12,25 @@
       </SnippetTypes>
     </Header>
     <Snippet>
-      <Code Language="csharp">
-        <![CDATA[foreach (var value in Enum.GetValues(typeof($Enum$)))$end$]]>
-      </Code>
+      <Code Language="csharp"><![CDATA[foreach ($Var$ $Value$ in Enum.GetValues(typeof($Enum$)))
+{
+$end$
+}]]></Code>
       <Declarations>
-        <Literal>
-          <ID>SomeClass</ID>
-          <ToolTip>Class name.</ToolTip>
-          <Default>SomeClass</Default>
-        </Literal>
-        <Literal>
+        <Literal Editable="true">
           <ID>Enum</ID>
-          <ToolTip>Enumeration.</ToolTip>
+          <ToolTip>Enumeration</ToolTip>
           <Default>Enum</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Var</ID>
+          <ToolTip>Variable type</ToolTip>
+          <Default>var</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Value</ID>
+          <ToolTip>Variable name</ToolTip>
+          <Default>value</Default>
         </Literal>
       </Declarations>
       <Imports>
