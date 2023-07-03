@@ -6,11 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.200] - 2023-07-03
+## [0.2.201] - 2023-07-03
 ### Changed
 - [Visual Studio C#/Enums/Enum foreach](Visual%20Studio%20C%23/Enums/Enum%20foreach.snippet)
 ### Added
 - [Visual Studio C#/Lozalization/Localization Translate](Visual%20Studio%20C%23/Localization/Localization%20Translate.snippet)
+- [Visual Studio C#/Attributes/Attribute DoNotNotify](Visual%20Studio%20C%23/Attributes/Attribute%20DoNotNotify.snippet)
 
 ## [0.2.198] - 2023-03-27
 ### Changed

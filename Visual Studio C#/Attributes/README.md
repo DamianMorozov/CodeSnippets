@@ -4,8 +4,9 @@
 - [Back to the Visual Studio C# page](../README.md)
 
 # Items
-- [Attribute DebuggerDisplay](Attribute%20DebuggerDisplay.snippet)
 - [Attribute DebuggerDisplay ToString](Attribute%20DebuggerDisplay%20ToString.snippet)
+- [Attribute DebuggerDisplay](Attribute%20DebuggerDisplay.snippet)
+- [Attribute DoNotNotify](Attribute%20DoNotNotify.snippet)
 - [Attribute MVC FromQuery](Attribute%20MVC%20FromQuery.snippet)
 - [Attribute Obsolete](Attribute%20Obsolete.snippet)
 - [Attribute Parameter](Attribute%20Parameter.snippet)
