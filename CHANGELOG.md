@@ -6,10 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.203] - 2023-09-04
+## [0.2.207] - 2023-09-04
 ### Added
 - [Visual Studio C#/Regions/Region private methods](Visual%20Studio%20C%23/Regions/Region%20private%20methods.snippet)
 - [Visual Studio C#/Regions/Region public methods](Visual%20Studio%20C%23/Regions/Region%20public%20methods.snippet)
+
+## [0.2.204] - 2023-08-22
+### Changed
+- [Visual Studio C#/Attributes/Attribute DebuggerDisplay ToString](Visual%20Studio%20C%23/Attributes/Attribute%20DebuggerDisplay%20ToString.snippet)
+### Added
+- [Visual Studio C#/Attributes/Attribute Benchmark](Visual%20Studio%20C%23/Attributes/Attribute%20Benchmark.snippet)
+- [Visual Studio C#/Attributes/Attribute Benchmark InvocationCount](Visual%20Studio%20C%23/Attributes/Attribute%20Benchmark%20InvocationCount.snippet)
+- [Visual Studio C#/Attributes/Attribute Benchmark IterationCount](Visual%20Studio%20C%23/Attributes/Attribute%20Benchmark%IterationCount.snippet)
 
 ## [0.2.201] - 2023-07-03
 ### Changed

@@ -3,8 +3,8 @@
   xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Attribute DebuggerDisplay ToString</Title>
-      <Shortcut>cs_attr_debuggerdisplay_tostring</Shortcut>
+      <Title>Attribute Benchmark InvocationCount</Title>
+      <Shortcut>cs_attr_benchmark_invocation_count</Shortcut>
       <Description>Paste code</Description>
       <Author>Damian Viktorovich Morozov</Author>
       <SnippetTypes>
@@ -12,13 +12,20 @@
       </SnippetTypes>
     </Header>
     <Snippet>
-      <Code Language="CSharp"><![CDATA[[DebuggerDisplay("{ToString()}")]$end$]]>
-	  </Code>
+      <Code Language="CSharp"><![CDATA[[InvocationCount($Count$)]$end$]]>
+      </Code>
       <Imports>
         <Import>
           <Namespace>System.Diagnostics</Namespace>
         </Import>
       </Imports>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Count</ID>
+          <ToolTip>Count of invocations</ToolTip>
+          <Default>5</Default>
+        </Literal>
+      </Declarations>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
