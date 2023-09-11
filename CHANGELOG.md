@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.208] - 2023-09-11
+### Added
+- [Visual Studio C#/Attributes/Attribute DebuggerDisplay ToDebugString](Visual Studio C#/Attributes/Attribute%20DebuggerDisplay%20ToDebugString.snippet)
+
 ## [0.2.207] - 2023-09-04
 ### Added
 - [Visual Studio C#/Regions/Region private methods](Visual%20Studio%20C%23/Regions/Region%20private%20methods.snippet)
