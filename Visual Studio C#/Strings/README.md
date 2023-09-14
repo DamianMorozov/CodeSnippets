@@ -5,6 +5,7 @@
 
 # Items
 - [StringBuilder foreach](StringBuilder%20foreach.snippet)
+- [ToDebugString](ToDebugString.snippet)
 - [Trim query 2](Trim%20query%202.snippet)
 - [Trim query newline](Trim%20query%20newline.snippet)
 - [Trim query short](Trim%20query%20short.snippet)

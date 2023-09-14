@@ -6,9 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.209] - 2023-09-14
+### Added
+- [Visual Studio C#/Strings/ToDebugString](Visual%20Studio%20C%23/Strings/ToDebugString.snippet)
+
 ## [0.2.208] - 2023-09-11
 ### Added
-- [Visual Studio C#/Attributes/Attribute DebuggerDisplay ToDebugString](Visual Studio C#/Attributes/Attribute%20DebuggerDisplay%20ToDebugString.snippet)
+- [Visual Studio C#/Attributes/Attribute DebuggerDisplay ToDebugString](Visual%20Studio%20C%23/Attributes/Attribute%20DebuggerDisplay%20ToDebugString.snippet)
 
 ## [0.2.207] - 2023-09-04
 ### Added
