@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.210] - 2023-10-04
+### Added
+- [Visual Studio C#/Comments/Comment inheritdoc](Visual%20Studio%20C%23/Comments/Comment%20inheritdoc.snippet)
+
 ## [0.2.209] - 2023-09-14
 ### Added
 - [Visual Studio C#/Strings/ToDebugString](Visual%20Studio%20C%23/Strings/ToDebugString.snippet)
