@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.211] - 2023-12-14
+### Added
+- [Visual Studio C#/Attributes/Attribute Summary](Visual%20Studio%20C%23/Attributes/Attribute%20Summary.snippet)
+
 ## [0.2.210] - 2023-10-04
 ### Added
 - [Visual Studio C#/Comments/Comment inheritdoc](Visual%20Studio%20C%23/Comments/Comment%20inheritdoc.snippet)

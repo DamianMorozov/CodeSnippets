@@ -4,11 +4,11 @@
 - [Back to the Visual Studio C# page](../README.md)
 
 # Items
-- [Attribute Benchmark](Attribute%20Benchmark.snippet)
 - [Attribute Benchmark InvocationCount](Attribute%20Benchmark%20InvocationCount.snippet)
 - [Attribute Benchmark IterationCount](Attribute%20Benchmark%20IterationCount.snippet)
-- [Attribute DebuggerDisplay](Attribute%20DebuggerDisplay.snippet)
+- [Attribute Benchmark](Attribute%20Benchmark.snippet)
 - [Attribute DebuggerDisplay ToString](Attribute%20DebuggerDisplay%20ToString.snippet)
+- [Attribute DebuggerDisplay](Attribute%20DebuggerDisplay.snippet)
 - [Attribute DoNotNotify](Attribute%20DoNotNotify.snippet)
 - [Attribute MVC FromQuery](Attribute%20MVC%20FromQuery.snippet)
 - [Attribute Obsolete](Attribute%20Obsolete.snippet)
@@ -18,6 +18,7 @@
 - [Attribute Runtime.CompilerServices.CallerMemberName](Attribute%20Runtime.CompilerServices.CallerMemberName.snippet)
 - [Attribute Runtime](Attribute%20Runtime.snippet)
 - [Attribute Serializable](Attribute%20Serializable.snippet)
+- [Attribute Summary](Attribute%20Summary.snippet)
 - [Attribute SupportedOSPlatform](Attribute%20SupportedOSPlatform.snippet)
 - [Attribute XmlArrayItem](Attribute%20XmlArrayItem.snippet)
 - [Attribute XmlArray](Attribute%20XmlArray.snippet)
