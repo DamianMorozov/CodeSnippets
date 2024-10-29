@@ -6,9 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.220] - 2024-10-29
+## [0.2.221] - 2024-10-29
 ### Changed
 - [Visual Studio C#/Surrounders](Visual%20Studio%20C%23/Surrounders/README.md)
+### Added
+- [Visual Studio C#/Surrounders/Debug if](Visual%20Studio%20C%23/Surrounders/Debug$20if.snippet)
 
 ## [0.2.211] - 2023-12-14
 ### Added
