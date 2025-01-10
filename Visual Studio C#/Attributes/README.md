@@ -9,6 +9,7 @@
 - [Attribute Benchmark](Attribute%20Benchmark.snippet)
 - [Attribute DebuggerDisplay ToString](Attribute%20DebuggerDisplay%20ToString.snippet)
 - [Attribute DebuggerDisplay](Attribute%20DebuggerDisplay.snippet)
+- [Attribute DisplayName](Attribute%20DisplayName.snippet)
 - [Attribute DoNotNotify](Attribute%20DoNotNotify.snippet)
 - [Attribute MVC FromQuery](Attribute%20MVC%20FromQuery.snippet)
 - [Attribute Obsolete](Attribute%20Obsolete.snippet)

@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.222] - 2025-01-10
+### Added
+- [Visual Studio C#/Attributes/Attribute DisplayName](Visual%20Studio%20C%23/Attributes/Attribute%20DisplayName.snippet)
+
 ## [0.2.221] - 2024-10-29
 ### Changed
 - [Visual Studio C#/Surrounders](Visual%20Studio%20C%23/Surrounders/README.md)
